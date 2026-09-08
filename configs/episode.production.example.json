@@ -1,0 +1,15 @@
+{
+  "project": "episode_001",
+  "seed": 42,
+  "inference_timesteps": 30,
+  "cfg_value": 2.0,
+  "warmup_patches": 0,
+  "max_tokens": 2000,
+  "candidates": 3,
+  "lines": [
+    {"id":"S01_L01","character_id":"narrator_suspense_01","style":"neutral","text":"凌晨两点，办公室的灯突然亮了。","mode":"ultimate"},
+    {"id":"S01_L02","character_id":"male_young_cold_01","style":"whisper","text":"先别出声，门外有人。","mode":"ultimate"},
+    {"id":"S01_L03","character_id":"female_young_cool_01","style":"panic","text":"不对，他已经进来了！","mode":"ultimate"},
+    {"id":"S01_L04","character_id":"male_mature_elite_01","style":"angry","text":"我说过，不要碰那份文件。","mode":"ultimate"}
+  ]
+}

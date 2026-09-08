@@ -1,0 +1,57 @@
+{
+  "id": "female_young_cool_01",
+  "name": "清冷女主",
+  "language": "zh",
+  "description": "中国年轻女性，25岁左右，清冷克制，中音偏低，聪明独立，带一点距离感，自然影视对白，不是播音腔",
+  "default_style": "neutral",
+  "styles": {
+    "neutral": {
+      "reference": "neutral/reference.wav",
+      "transcript": "neutral/transcript.txt",
+      "original": "neutral/original.wav",
+      "quality_warnings": [
+        "recommended duration is 5–15 seconds"
+      ]
+    },
+    "gentle": {
+      "reference": "gentle/reference.wav",
+      "transcript": "gentle/transcript.txt",
+      "original": "gentle/original.wav",
+      "quality_warnings": [
+        "recommended duration is 5–15 seconds"
+      ]
+    },
+    "angry": {
+      "reference": "angry/reference.wav",
+      "transcript": "angry/transcript.txt",
+      "original": "angry/original.wav",
+      "quality_warnings": [
+        "recommended duration is 5–15 seconds"
+      ]
+    },
+    "sad": {
+      "reference": "sad/reference.wav",
+      "transcript": "sad/transcript.txt",
+      "original": "sad/original.wav",
+      "quality_warnings": [
+        "recommended duration is 5–15 seconds"
+      ]
+    },
+    "panic": {
+      "reference": "panic/reference.wav",
+      "transcript": "panic/transcript.txt",
+      "original": "panic/original.wav",
+      "quality_warnings": [
+        "recommended duration is 5–15 seconds"
+      ]
+    },
+    "whisper": {
+      "reference": "whisper/reference.wav",
+      "transcript": "whisper/transcript.txt",
+      "original": "whisper/original.wav",
+      "quality_warnings": [
+        "recommended duration is 5–15 seconds"
+      ]
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "model": "models/VoxCPM2-bf16",
+  "sample_rate": 48000,
+  "inference_timesteps": 30,
+  "cfg_value": 2.0,
+  "warmup_patches": 0,
+  "max_tokens": 2000,
+  "output_format": "wav",
+  "default_mode": "controllable",
+  "default_style": "neutral",
+  "natural_dialogue": {
+    "reference_min_seconds": 5.0,
+    "reference_preferred_seconds": [8.0, 15.0],
+    "peak_warning": 0.98,
+    "instruction": "自然生活化对白，语气克制，停连随语义变化，不要播音腔，不要机械匀速"
+  },
+  "default_candidates": 3,
+  "candidate_seeds": [42, 3407, 20260907]
+}

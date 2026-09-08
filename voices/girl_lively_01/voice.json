@@ -1,0 +1,17 @@
+{
+  "id": "girl_lively_01",
+  "name": "灵动女童",
+  "language": "zh",
+  "description": "中国女童，8岁左右，灵动清澈，天真自然，轻声分享秘密的感觉，不尖锐，不成人夹音，不使用卡通腔",
+  "default_style": "neutral",
+  "styles": {
+    "neutral": {
+      "reference": "neutral/reference.wav",
+      "transcript": "neutral/transcript.txt",
+      "original": "neutral/original.wav",
+      "quality_warnings": [
+        "recommended duration is 5–15 seconds"
+      ]
+    }
+  }
+}

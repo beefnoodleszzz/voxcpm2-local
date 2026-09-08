@@ -1,0 +1,17 @@
+{
+  "id": "boy_natural_01",
+  "name": "自然男童",
+  "language": "zh",
+  "description": "中国男童，9岁左右，自然清亮，天真好奇，说话有真实儿童停连，不尖锐，不成人装嫩，不使用卡通腔",
+  "default_style": "neutral",
+  "styles": {
+    "neutral": {
+      "reference": "neutral/reference.wav",
+      "transcript": "neutral/transcript.txt",
+      "original": "neutral/original.wav",
+      "quality_warnings": [
+        "recommended duration is 5–15 seconds"
+      ]
+    }
+  }
+}

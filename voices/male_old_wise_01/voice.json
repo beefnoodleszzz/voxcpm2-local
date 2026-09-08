@@ -1,0 +1,15 @@
+{
+  "id": "male_old_wise_01",
+  "name": "智慧爷爷",
+  "language": "zh",
+  "description": "中国老年男性，68岁左右，温厚低沉，轻微自然沙哑，语速偏慢，有阅历和慈爱感，真实老人说话，不刻意衰弱",
+  "default_style": "neutral",
+  "styles": {
+    "neutral": {
+      "reference": "neutral/reference.wav",
+      "transcript": "neutral/transcript.txt",
+      "original": "neutral/original.wav",
+      "quality_warnings": []
+    }
+  }
+}

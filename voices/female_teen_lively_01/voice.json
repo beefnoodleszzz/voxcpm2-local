@@ -1,0 +1,17 @@
+{
+  "id": "female_teen_lively_01",
+  "name": "活泼少女",
+  "language": "zh",
+  "description": "中国女性少女，17岁左右，清亮活泼，好奇兴奋，语速稍快，自然校园生活感，不尖叫，不幼稚卡通",
+  "default_style": "neutral",
+  "styles": {
+    "neutral": {
+      "reference": "neutral/reference.wav",
+      "transcript": "neutral/transcript.txt",
+      "original": "neutral/original.wav",
+      "quality_warnings": [
+        "recommended duration is 5–15 seconds"
+      ]
+    }
+  }
+}

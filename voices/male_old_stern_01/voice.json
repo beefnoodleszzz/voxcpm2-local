@@ -1,0 +1,17 @@
+{
+  "id": "male_old_stern_01",
+  "name": "威严长者男",
+  "language": "zh",
+  "description": "中国老年男性，65岁左右，声音厚实威严，吐字稳，传统家族长辈气质，情绪克制，不是戏曲腔",
+  "default_style": "neutral",
+  "styles": {
+    "neutral": {
+      "reference": "neutral/reference.wav",
+      "transcript": "neutral/transcript.txt",
+      "original": "neutral/original.wav",
+      "quality_warnings": [
+        "recommended duration is 5–15 seconds"
+      ]
+    }
+  }
+}

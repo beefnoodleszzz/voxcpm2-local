@@ -1,0 +1,17 @@
+{
+  "id": "narrator_warm_01",
+  "name": "温暖故事旁白",
+  "language": "zh",
+  "description": "中国成年叙事男声，温暖沉静，中低音，有故事感和画面感，节奏从容，纪录片与影视旁白之间，不过度播音",
+  "default_style": "neutral",
+  "styles": {
+    "neutral": {
+      "reference": "neutral/reference.wav",
+      "transcript": "neutral/transcript.txt",
+      "original": "neutral/original.wav",
+      "quality_warnings": [
+        "recommended duration is 5–15 seconds"
+      ]
+    }
+  }
+}

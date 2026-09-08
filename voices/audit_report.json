@@ -1,0 +1,509 @@
+{
+  "characters": 25,
+  "styles": 55,
+  "errors": [],
+  "warnings": [
+    "boy_natural_01/neutral: reference is 4.96s; use 5-30s, preferably 8-15s",
+    "female_mature_intellectual_01/neutral: reference is 4.64s; use 5-30s, preferably 8-15s",
+    "female_mature_queen_01/neutral: reference is 4.48s; use 5-30s, preferably 8-15s",
+    "female_mature_queen_01/gentle: reference is 3.68s; use 5-30s, preferably 8-15s",
+    "female_mature_queen_01/angry: reference is 3.84s; use 5-30s, preferably 8-15s",
+    "female_mature_queen_01/sad: reference is 4.00s; use 5-30s, preferably 8-15s",
+    "female_mature_queen_01/panic: reference is 3.20s; use 5-30s, preferably 8-15s",
+    "female_mature_queen_01/whisper: reference is 3.52s; use 5-30s, preferably 8-15s",
+    "female_middle_fierce_01/neutral: reference is 3.04s; use 5-30s, preferably 8-15s",
+    "female_old_gentle_01/neutral: reference is 4.32s; use 5-30s, preferably 8-15s",
+    "female_old_stern_01/neutral: reference is 4.32s; use 5-30s, preferably 8-15s",
+    "female_teen_lively_01/neutral: reference is 4.00s; use 5-30s, preferably 8-15s",
+    "female_young_cool_01/neutral: reference is 4.16s; use 5-30s, preferably 8-15s",
+    "female_young_cool_01/gentle: reference is 3.52s; use 5-30s, preferably 8-15s",
+    "female_young_cool_01/gentle: peak 0.990 is close to full scale",
+    "female_young_cool_01/angry: reference is 3.36s; use 5-30s, preferably 8-15s",
+    "female_young_cool_01/angry: peak 0.988 is close to full scale",
+    "female_young_cool_01/sad: reference is 4.00s; use 5-30s, preferably 8-15s",
+    "female_young_cool_01/panic: reference is 3.52s; use 5-30s, preferably 8-15s",
+    "female_young_cool_01/panic: peak 0.992 is close to full scale",
+    "female_young_cool_01/whisper: reference is 3.36s; use 5-30s, preferably 8-15s",
+    "female_young_gentle_01/neutral: reference is 4.32s; use 5-30s, preferably 8-15s",
+    "female_young_sweet_01/neutral: reference is 4.48s; use 5-30s, preferably 8-15s",
+    "female_young_sweet_01/gentle: reference is 3.68s; use 5-30s, preferably 8-15s",
+    "female_young_sweet_01/angry: reference is 3.36s; use 5-30s, preferably 8-15s",
+    "female_young_sweet_01/sad: reference is 4.48s; use 5-30s, preferably 8-15s",
+    "female_young_sweet_01/panic: reference is 3.52s; use 5-30s, preferably 8-15s",
+    "female_young_sweet_01/whisper: reference is 3.84s; use 5-30s, preferably 8-15s",
+    "girl_lively_01/neutral: reference is 4.96s; use 5-30s, preferably 8-15s",
+    "male_mature_elite_01/neutral: reference is 4.32s; use 5-30s, preferably 8-15s",
+    "male_mature_elite_01/gentle: reference is 3.36s; use 5-30s, preferably 8-15s",
+    "male_mature_elite_01/angry: reference is 2.88s; use 5-30s, preferably 8-15s",
+    "male_mature_elite_01/sad: reference is 3.52s; use 5-30s, preferably 8-15s",
+    "male_mature_elite_01/panic: reference is 3.04s; use 5-30s, preferably 8-15s",
+    "male_mature_elite_01/whisper: reference is 3.04s; use 5-30s, preferably 8-15s",
+    "male_mature_tough_01/neutral: reference is 3.20s; use 5-30s, preferably 8-15s",
+    "male_middle_comic_01/neutral: reference is 3.68s; use 5-30s, preferably 8-15s",
+    "male_old_stern_01/neutral: reference is 4.32s; use 5-30s, preferably 8-15s",
+    "male_teen_clean_01/neutral: reference is 3.52s; use 5-30s, preferably 8-15s",
+    "male_villain_calm_01/neutral: reference is 4.64s; use 5-30s, preferably 8-15s",
+    "male_young_cold_01/neutral: reference is 4.32s; use 5-30s, preferably 8-15s",
+    "male_young_cold_01/gentle: reference is 3.20s; use 5-30s, preferably 8-15s",
+    "male_young_cold_01/angry: reference is 3.20s; use 5-30s, preferably 8-15s",
+    "male_young_cold_01/sad: reference is 3.84s; use 5-30s, preferably 8-15s",
+    "male_young_cold_01/panic: reference is 3.20s; use 5-30s, preferably 8-15s",
+    "male_young_cold_01/whisper: reference is 3.36s; use 5-30s, preferably 8-15s",
+    "male_young_gentle_01/neutral: reference is 4.00s; use 5-30s, preferably 8-15s",
+    "male_young_sunny_01/neutral: reference is 3.68s; use 5-30s, preferably 8-15s",
+    "male_young_sunny_01/neutral: peak 0.995 is close to full scale",
+    "male_young_sunny_01/gentle: reference is 3.04s; use 5-30s, preferably 8-15s",
+    "male_young_sunny_01/gentle: peak 0.989 is close to full scale",
+    "male_young_sunny_01/angry: reference is 3.04s; use 5-30s, preferably 8-15s",
+    "male_young_sunny_01/angry: peak 0.996 is close to full scale",
+    "male_young_sunny_01/sad: reference is 3.68s; use 5-30s, preferably 8-15s",
+    "male_young_sunny_01/sad: peak 0.995 is close to full scale",
+    "male_young_sunny_01/panic: reference is 2.88s; use 5-30s, preferably 8-15s",
+    "male_young_sunny_01/panic: peak 0.996 is close to full scale",
+    "male_young_sunny_01/whisper: reference is 2.88s; use 5-30s, preferably 8-15s",
+    "male_young_sunny_01/whisper: peak 0.985 is close to full scale",
+    "narrator_warm_01/neutral: reference is 4.48s; use 5-30s, preferably 8-15s"
+  ],
+  "entries": [
+    {
+      "character_id": "boy_natural_01",
+      "name": "自然男童",
+      "style": "neutral",
+      "duration": 4.960166666666667,
+      "peak": 0.3615807294845581,
+      "rms": 0.05568443611264229
+    },
+    {
+      "character_id": "female_mature_intellectual_01",
+      "name": "知性成熟女",
+      "style": "neutral",
+      "duration": 4.6401666666666666,
+      "peak": 0.27411794662475586,
+      "rms": 0.04213758930563927
+    },
+    {
+      "character_id": "female_mature_queen_01",
+      "name": "成熟御姐",
+      "style": "neutral",
+      "duration": 4.480166666666666,
+      "peak": 0.5387231111526489,
+      "rms": 0.056947410106658936
+    },
+    {
+      "character_id": "female_mature_queen_01",
+      "name": "成熟御姐",
+      "style": "gentle",
+      "duration": 3.6801666666666666,
+      "peak": 0.6871285438537598,
+      "rms": 0.08397271484136581
+    },
+    {
+      "character_id": "female_mature_queen_01",
+      "name": "成熟御姐",
+      "style": "angry",
+      "duration": 3.8401666666666667,
+      "peak": 0.5489416122436523,
+      "rms": 0.05419230833649635
+    },
+    {
+      "character_id": "female_mature_queen_01",
+      "name": "成熟御姐",
+      "style": "sad",
+      "duration": 4.000166666666667,
+      "peak": 0.45183849334716797,
+      "rms": 0.0574677549302578
+    },
+    {
+      "character_id": "female_mature_queen_01",
+      "name": "成熟御姐",
+      "style": "panic",
+      "duration": 3.2001666666666666,
+      "peak": 0.824522852897644,
+      "rms": 0.14802631735801697
+    },
+    {
+      "character_id": "female_mature_queen_01",
+      "name": "成熟御姐",
+      "style": "whisper",
+      "duration": 3.520166666666667,
+      "peak": 0.5136198997497559,
+      "rms": 0.04869179427623749
+    },
+    {
+      "character_id": "female_middle_fierce_01",
+      "name": "泼辣市井女",
+      "style": "neutral",
+      "duration": 3.0401666666666665,
+      "peak": 0.7561025619506836,
+      "rms": 0.16690559685230255
+    },
+    {
+      "character_id": "female_old_gentle_01",
+      "name": "慈爱奶奶",
+      "style": "neutral",
+      "duration": 4.320166666666666,
+      "peak": 0.7437106370925903,
+      "rms": 0.09298931062221527
+    },
+    {
+      "character_id": "female_old_stern_01",
+      "name": "威严长者女",
+      "style": "neutral",
+      "duration": 4.320166666666666,
+      "peak": 0.596081018447876,
+      "rms": 0.06781335920095444
+    },
+    {
+      "character_id": "female_teen_lively_01",
+      "name": "活泼少女",
+      "style": "neutral",
+      "duration": 4.000166666666667,
+      "peak": 0.4610142707824707,
+      "rms": 0.05087348818778992
+    },
+    {
+      "character_id": "female_villain_elegant_01",
+      "name": "优雅反派女",
+      "style": "neutral",
+      "duration": 5.440166666666666,
+      "peak": 0.5600557327270508,
+      "rms": 0.05917683243751526
+    },
+    {
+      "character_id": "female_young_cool_01",
+      "name": "清冷女主",
+      "style": "neutral",
+      "duration": 4.160166666666667,
+      "peak": 0.9794676303863525,
+      "rms": 0.17647528648376465
+    },
+    {
+      "character_id": "female_young_cool_01",
+      "name": "清冷女主",
+      "style": "gentle",
+      "duration": 3.520166666666667,
+      "peak": 0.9898388385772705,
+      "rms": 0.1894221156835556
+    },
+    {
+      "character_id": "female_young_cool_01",
+      "name": "清冷女主",
+      "style": "angry",
+      "duration": 3.3601666666666667,
+      "peak": 0.9877768754959106,
+      "rms": 0.19719114899635315
+    },
+    {
+      "character_id": "female_young_cool_01",
+      "name": "清冷女主",
+      "style": "sad",
+      "duration": 4.000166666666667,
+      "peak": 0.9741088151931763,
+      "rms": 0.1580992043018341
+    },
+    {
+      "character_id": "female_young_cool_01",
+      "name": "清冷女主",
+      "style": "panic",
+      "duration": 3.520166666666667,
+      "peak": 0.9924494028091431,
+      "rms": 0.2235613465309143
+    },
+    {
+      "character_id": "female_young_cool_01",
+      "name": "清冷女主",
+      "style": "whisper",
+      "duration": 3.3601666666666667,
+      "peak": 0.9777698516845703,
+      "rms": 0.1947898417711258
+    },
+    {
+      "character_id": "female_young_gentle_01",
+      "name": "治愈温柔女",
+      "style": "neutral",
+      "duration": 4.320166666666666,
+      "peak": 0.6891887187957764,
+      "rms": 0.0917353555560112
+    },
+    {
+      "character_id": "female_young_sweet_01",
+      "name": "甜美青年女",
+      "style": "neutral",
+      "duration": 4.480166666666666,
+      "peak": 0.6569361686706543,
+      "rms": 0.12502485513687134
+    },
+    {
+      "character_id": "female_young_sweet_01",
+      "name": "甜美青年女",
+      "style": "gentle",
+      "duration": 3.6801666666666666,
+      "peak": 0.6795027256011963,
+      "rms": 0.10525146871805191
+    },
+    {
+      "character_id": "female_young_sweet_01",
+      "name": "甜美青年女",
+      "style": "angry",
+      "duration": 3.3601666666666667,
+      "peak": 0.811884880065918,
+      "rms": 0.14767129719257355
+    },
+    {
+      "character_id": "female_young_sweet_01",
+      "name": "甜美青年女",
+      "style": "sad",
+      "duration": 4.480166666666666,
+      "peak": 0.8400129079818726,
+      "rms": 0.13138523697853088
+    },
+    {
+      "character_id": "female_young_sweet_01",
+      "name": "甜美青年女",
+      "style": "panic",
+      "duration": 3.520166666666667,
+      "peak": 0.7394753694534302,
+      "rms": 0.159800723195076
+    },
+    {
+      "character_id": "female_young_sweet_01",
+      "name": "甜美青年女",
+      "style": "whisper",
+      "duration": 3.8401666666666667,
+      "peak": 0.6353967189788818,
+      "rms": 0.13002464175224304
+    },
+    {
+      "character_id": "girl_lively_01",
+      "name": "灵动女童",
+      "style": "neutral",
+      "duration": 4.960166666666667,
+      "peak": 0.21130013465881348,
+      "rms": 0.04332222789525986
+    },
+    {
+      "character_id": "male_lead_01",
+      "name": "男主01",
+      "style": "neutral",
+      "duration": 5.760166666666667,
+      "peak": 0.440818190574646,
+      "rms": 0.06169384717941284
+    },
+    {
+      "character_id": "male_mature_elite_01",
+      "name": "成熟精英男",
+      "style": "neutral",
+      "duration": 4.320166666666666,
+      "peak": 0.7102957963943481,
+      "rms": 0.09801723808050156
+    },
+    {
+      "character_id": "male_mature_elite_01",
+      "name": "成熟精英男",
+      "style": "gentle",
+      "duration": 3.3601666666666667,
+      "peak": 0.6414083242416382,
+      "rms": 0.09273214638233185
+    },
+    {
+      "character_id": "male_mature_elite_01",
+      "name": "成熟精英男",
+      "style": "angry",
+      "duration": 2.8801666666666668,
+      "peak": 0.864415168762207,
+      "rms": 0.10697098821401596
+    },
+    {
+      "character_id": "male_mature_elite_01",
+      "name": "成熟精英男",
+      "style": "sad",
+      "duration": 3.520166666666667,
+      "peak": 0.6971002817153931,
+      "rms": 0.10219800472259521
+    },
+    {
+      "character_id": "male_mature_elite_01",
+      "name": "成熟精英男",
+      "style": "panic",
+      "duration": 3.0401666666666665,
+      "peak": 0.7470017671585083,
+      "rms": 0.109587162733078
+    },
+    {
+      "character_id": "male_mature_elite_01",
+      "name": "成熟精英男",
+      "style": "whisper",
+      "duration": 3.0401666666666665,
+      "peak": 0.6825793981552124,
+      "rms": 0.08567918837070465
+    },
+    {
+      "character_id": "male_mature_tough_01",
+      "name": "硬汉叔系",
+      "style": "neutral",
+      "duration": 3.2001666666666666,
+      "peak": 0.9794766902923584,
+      "rms": 0.13541661202907562
+    },
+    {
+      "character_id": "male_middle_comic_01",
+      "name": "市井喜剧男",
+      "style": "neutral",
+      "duration": 3.6801666666666666,
+      "peak": 0.9754316806793213,
+      "rms": 0.14350810647010803
+    },
+    {
+      "character_id": "male_old_stern_01",
+      "name": "威严长者男",
+      "style": "neutral",
+      "duration": 4.320166666666666,
+      "peak": 0.7247505187988281,
+      "rms": 0.08108188211917877
+    },
+    {
+      "character_id": "male_old_wise_01",
+      "name": "智慧爷爷",
+      "style": "neutral",
+      "duration": 5.440166666666666,
+      "peak": 0.2550973892211914,
+      "rms": 0.032594576478004456
+    },
+    {
+      "character_id": "male_teen_clean_01",
+      "name": "清澈少年",
+      "style": "neutral",
+      "duration": 3.520166666666667,
+      "peak": 0.712369441986084,
+      "rms": 0.05889338254928589
+    },
+    {
+      "character_id": "male_villain_calm_01",
+      "name": "冷静反派男",
+      "style": "neutral",
+      "duration": 4.6401666666666666,
+      "peak": 0.8994952440261841,
+      "rms": 0.1222740113735199
+    },
+    {
+      "character_id": "male_young_cold_01",
+      "name": "清冷男主",
+      "style": "neutral",
+      "duration": 4.320166666666666,
+      "peak": 0.5712697505950928,
+      "rms": 0.0741296336054802
+    },
+    {
+      "character_id": "male_young_cold_01",
+      "name": "清冷男主",
+      "style": "gentle",
+      "duration": 3.2001666666666666,
+      "peak": 0.6053565740585327,
+      "rms": 0.07923702150583267
+    },
+    {
+      "character_id": "male_young_cold_01",
+      "name": "清冷男主",
+      "style": "angry",
+      "duration": 3.2001666666666666,
+      "peak": 0.7638776302337646,
+      "rms": 0.09037882834672928
+    },
+    {
+      "character_id": "male_young_cold_01",
+      "name": "清冷男主",
+      "style": "sad",
+      "duration": 3.8401666666666667,
+      "peak": 0.40152978897094727,
+      "rms": 0.052633870393037796
+    },
+    {
+      "character_id": "male_young_cold_01",
+      "name": "清冷男主",
+      "style": "panic",
+      "duration": 3.2001666666666666,
+      "peak": 0.6075712442398071,
+      "rms": 0.08246385306119919
+    },
+    {
+      "character_id": "male_young_cold_01",
+      "name": "清冷男主",
+      "style": "whisper",
+      "duration": 3.3601666666666667,
+      "peak": 0.5758084058761597,
+      "rms": 0.07296594977378845
+    },
+    {
+      "character_id": "male_young_gentle_01",
+      "name": "温柔男友",
+      "style": "neutral",
+      "duration": 4.000166666666667,
+      "peak": 0.9678816795349121,
+      "rms": 0.16069690883159637
+    },
+    {
+      "character_id": "male_young_sunny_01",
+      "name": "阳光青年男",
+      "style": "neutral",
+      "duration": 3.6801666666666666,
+      "peak": 0.995376467704773,
+      "rms": 0.1996946781873703
+    },
+    {
+      "character_id": "male_young_sunny_01",
+      "name": "阳光青年男",
+      "style": "gentle",
+      "duration": 3.0401666666666665,
+      "peak": 0.9885246753692627,
+      "rms": 0.1449936479330063
+    },
+    {
+      "character_id": "male_young_sunny_01",
+      "name": "阳光青年男",
+      "style": "angry",
+      "duration": 3.0401666666666665,
+      "peak": 0.9955425262451172,
+      "rms": 0.1936585158109665
+    },
+    {
+      "character_id": "male_young_sunny_01",
+      "name": "阳光青年男",
+      "style": "sad",
+      "duration": 3.6801666666666666,
+      "peak": 0.9946036338806152,
+      "rms": 0.19134269654750824
+    },
+    {
+      "character_id": "male_young_sunny_01",
+      "name": "阳光青年男",
+      "style": "panic",
+      "duration": 2.8801666666666668,
+      "peak": 0.9958463907241821,
+      "rms": 0.2216070592403412
+    },
+    {
+      "character_id": "male_young_sunny_01",
+      "name": "阳光青年男",
+      "style": "whisper",
+      "duration": 2.8801666666666668,
+      "peak": 0.9846980571746826,
+      "rms": 0.18461498618125916
+    },
+    {
+      "character_id": "narrator_suspense_01",
+      "name": "悬疑故事旁白",
+      "style": "neutral",
+      "duration": 6.880166666666667,
+      "peak": 0.5968990325927734,
+      "rms": 0.09880642592906952
+    },
+    {
+      "character_id": "narrator_warm_01",
+      "name": "温暖故事旁白",
+      "style": "neutral",
+      "duration": 4.480166666666666,
+      "peak": 0.9793521165847778,
+      "rms": 0.22906719148159027
+    }
+  ]
+}

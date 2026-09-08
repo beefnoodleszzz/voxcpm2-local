@@ -1,0 +1,17 @@
+{
+  "id": "female_young_gentle_01",
+  "name": "治愈温柔女",
+  "language": "zh",
+  "description": "中国年轻女性，27岁左右，温柔治愈，声音柔软但不虚弱，耐心可靠，近距离自然说话，有真实呼吸感",
+  "default_style": "neutral",
+  "styles": {
+    "neutral": {
+      "reference": "neutral/reference.wav",
+      "transcript": "neutral/transcript.txt",
+      "original": "neutral/original.wav",
+      "quality_warnings": [
+        "recommended duration is 5–15 seconds"
+      ]
+    }
+  }
+}

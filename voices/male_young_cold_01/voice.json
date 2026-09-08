@@ -1,0 +1,57 @@
+{
+  "id": "male_young_cold_01",
+  "name": "清冷男主",
+  "language": "zh",
+  "description": "中国年轻男性，25岁左右，中低音，清冷克制，略带疏离和疲惫，情绪藏在声音里，自然影视对白，不是播音腔",
+  "default_style": "neutral",
+  "styles": {
+    "neutral": {
+      "reference": "neutral/reference.wav",
+      "transcript": "neutral/transcript.txt",
+      "original": "neutral/original.wav",
+      "quality_warnings": [
+        "recommended duration is 5–15 seconds"
+      ]
+    },
+    "gentle": {
+      "reference": "gentle/reference.wav",
+      "transcript": "gentle/transcript.txt",
+      "original": "gentle/original.wav",
+      "quality_warnings": [
+        "recommended duration is 5–15 seconds"
+      ]
+    },
+    "angry": {
+      "reference": "angry/reference.wav",
+      "transcript": "angry/transcript.txt",
+      "original": "angry/original.wav",
+      "quality_warnings": [
+        "recommended duration is 5–15 seconds"
+      ]
+    },
+    "sad": {
+      "reference": "sad/reference.wav",
+      "transcript": "sad/transcript.txt",
+      "original": "sad/original.wav",
+      "quality_warnings": [
+        "recommended duration is 5–15 seconds"
+      ]
+    },
+    "panic": {
+      "reference": "panic/reference.wav",
+      "transcript": "panic/transcript.txt",
+      "original": "panic/original.wav",
+      "quality_warnings": [
+        "recommended duration is 5–15 seconds"
+      ]
+    },
+    "whisper": {
+      "reference": "whisper/reference.wav",
+      "transcript": "whisper/transcript.txt",
+      "original": "whisper/original.wav",
+      "quality_warnings": [
+        "recommended duration is 5–15 seconds"
+      ]
+    }
+  }
+}

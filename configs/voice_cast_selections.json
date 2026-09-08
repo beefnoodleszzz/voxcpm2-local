@@ -1,0 +1,29 @@
+{
+  "instructions": "试听 outputs/raw/voice_cast_v1/index.html 后，把每项 candidate 从 null 改为 1、2 或 3，再运行 scripts/finalize_voice_cast.py。",
+  "selections": {
+    "male_teen_clean_01": 3,
+    "male_young_sunny_01": 2,
+    "male_young_cold_01": 3,
+    "male_young_gentle_01": 1,
+    "male_mature_elite_01": 2,
+    "male_mature_tough_01": 1,
+    "male_middle_comic_01": 1,
+    "male_villain_calm_01": 2,
+    "male_old_wise_01": 3,
+    "male_old_stern_01": 1,
+    "female_teen_lively_01": 3,
+    "female_young_sweet_01": 2,
+    "female_young_cool_01": 2,
+    "female_young_gentle_01": 3,
+    "female_mature_queen_01": 3,
+    "female_mature_intellectual_01": 3,
+    "female_middle_fierce_01": 1,
+    "female_villain_elegant_01": 3,
+    "female_old_gentle_01": 3,
+    "female_old_stern_01": 1,
+    "boy_natural_01": 3,
+    "girl_lively_01": 1,
+    "narrator_warm_01": 2,
+    "narrator_suspense_01": 2
+  }
+}

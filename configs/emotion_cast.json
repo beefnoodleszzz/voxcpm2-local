@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "defaults": {"candidates": 3, "inference_timesteps": 30, "cfg_value": 2.0, "warmup_patches": 0, "max_tokens": 2000},
+  "characters": [
+    "male_young_sunny_01", "male_young_cold_01", "male_mature_elite_01",
+    "female_young_sweet_01", "female_young_cool_01", "female_mature_queen_01"
+  ],
+  "styles": {
+    "gentle": {"text":"别怕，慢慢来，我就在这里陪着你。","instruct":"温柔安抚，声音放轻，亲近自然，语速稍慢，保持角色原本音色，不要播音腔"},
+    "angry": {"text":"我最后问你一次，你到底有没有骗我？","instruct":"克制地愤怒，声音压低，语速略快，咬字有力度，不要喊叫，保持角色原本音色"},
+    "sad": {"text":"原来你早就决定离开，只是一直没有告诉我。","instruct":"悲伤失落，努力忍住情绪，气息稍弱，有停顿但不哭喊，保持角色原本音色"},
+    "panic": {"text":"别过去！那扇门后面，好像真的有人！","instruct":"惊恐紧张，呼吸略急，语速加快但台词清楚，不尖叫，保持角色原本音色"},
+    "whisper": {"text":"小声一点，他们可能就在外面的走廊里。","instruct":"近距离轻声耳语，警惕克制，气声自然且台词清楚，保持角色原本音色"}
+  }
+}

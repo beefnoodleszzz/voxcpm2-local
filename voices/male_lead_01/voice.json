@@ -1,0 +1,15 @@
+{
+  "id": "male_lead_01",
+  "name": "男主01",
+  "language": "zh",
+  "description": "年轻中国男性，中低音，克制自然的影视对白",
+  "default_style": "neutral",
+  "styles": {
+    "neutral": {
+      "reference": "neutral/reference.wav",
+      "transcript": "neutral/transcript.txt",
+      "original": "neutral/original.wav",
+      "quality_warnings": []
+    }
+  }
+}

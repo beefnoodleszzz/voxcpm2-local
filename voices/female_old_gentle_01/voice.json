@@ -1,0 +1,17 @@
+{
+  "id": "female_old_gentle_01",
+  "name": "慈爱奶奶",
+  "language": "zh",
+  "description": "中国老年女性，70岁左右，慈爱温暖，轻微岁月感和自然沙哑，语速偏慢，真实生活化，不刻意颤抖",
+  "default_style": "neutral",
+  "styles": {
+    "neutral": {
+      "reference": "neutral/reference.wav",
+      "transcript": "neutral/transcript.txt",
+      "original": "neutral/original.wav",
+      "quality_warnings": [
+        "recommended duration is 5–15 seconds"
+      ]
+    }
+  }
+}

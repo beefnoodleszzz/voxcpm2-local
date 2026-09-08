@@ -1,0 +1,17 @@
+{
+  "id": "male_middle_comic_01",
+  "name": "市井喜剧男",
+  "language": "zh",
+  "description": "中国中年男性，38岁左右，市井生活感，反应快，有喜剧节奏和一点委屈，口语自然，不使用夸张卡通声",
+  "default_style": "neutral",
+  "styles": {
+    "neutral": {
+      "reference": "neutral/reference.wav",
+      "transcript": "neutral/transcript.txt",
+      "original": "neutral/original.wav",
+      "quality_warnings": [
+        "recommended duration is 5–15 seconds"
+      ]
+    }
+  }
+}

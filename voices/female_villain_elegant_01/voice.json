@@ -1,0 +1,15 @@
+{
+  "id": "female_villain_elegant_01",
+  "name": "优雅反派女",
+  "language": "zh",
+  "description": "中国成熟女性，36岁左右，中低音，优雅从容，表面温柔但暗含危险，节奏舒缓，克制电影反派感",
+  "default_style": "neutral",
+  "styles": {
+    "neutral": {
+      "reference": "neutral/reference.wav",
+      "transcript": "neutral/transcript.txt",
+      "original": "neutral/original.wav",
+      "quality_warnings": []
+    }
+  }
+}

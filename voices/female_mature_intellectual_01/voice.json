@@ -1,0 +1,17 @@
+{
+  "id": "female_mature_intellectual_01",
+  "name": "知性成熟女",
+  "language": "zh",
+  "description": "中国成熟女性，38岁左右，知性沉稳，声音温润清晰，有专业感和同理心，自然对话，不是新闻播音",
+  "default_style": "neutral",
+  "styles": {
+    "neutral": {
+      "reference": "neutral/reference.wav",
+      "transcript": "neutral/transcript.txt",
+      "original": "neutral/original.wav",
+      "quality_warnings": [
+        "recommended duration is 5–15 seconds"
+      ]
+    }
+  }
+}

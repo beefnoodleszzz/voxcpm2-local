@@ -1,0 +1,17 @@
+{
+  "id": "male_mature_tough_01",
+  "name": "硬汉叔系",
+  "language": "zh",
+  "description": "中国成熟男性，42岁左右，低沉有力量，略带粗粝感，经历丰富，保护欲强，克制硬朗，不喊叫",
+  "default_style": "neutral",
+  "styles": {
+    "neutral": {
+      "reference": "neutral/reference.wav",
+      "transcript": "neutral/transcript.txt",
+      "original": "neutral/original.wav",
+      "quality_warnings": [
+        "recommended duration is 5–15 seconds"
+      ]
+    }
+  }
+}

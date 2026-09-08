@@ -1,0 +1,17 @@
+{
+  "id": "male_villain_calm_01",
+  "name": "冷静反派男",
+  "language": "zh",
+  "description": "中国成熟男性，40岁左右，低沉从容，危险但不咆哮，礼貌表面下有压迫感，电影反派式克制对白",
+  "default_style": "neutral",
+  "styles": {
+    "neutral": {
+      "reference": "neutral/reference.wav",
+      "transcript": "neutral/transcript.txt",
+      "original": "neutral/original.wav",
+      "quality_warnings": [
+        "recommended duration is 5–15 seconds"
+      ]
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "narrator_suspense_01",
+  "name": "悬疑故事旁白",
+  "language": "zh",
+  "description": "中国成年叙事女声，中低音，冷静神秘，悬疑氛围，留有停顿和空间感，压迫感克制，不故弄玄虚",
+  "default_style": "neutral",
+  "styles": {
+    "neutral": {
+      "reference": "neutral/reference.wav",
+      "transcript": "neutral/transcript.txt",
+      "original": "neutral/original.wav",
+      "quality_warnings": []
+    }
+  }
+}
