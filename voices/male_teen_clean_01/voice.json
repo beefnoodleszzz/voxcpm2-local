@@ -11,7 +11,58 @@
       "original": "neutral/original.wav",
       "quality_warnings": [
         "recommended duration is 5–15 seconds"
-      ]
+      ],
+      "reference_sha256": "bfe9b83a869acd3dc48c460dd1caa8fe0e44e4ef27738e33c318759b171b96bd",
+      "reference_stats": {
+        "path": "neutral/reference.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "frames": 168968,
+        "duration": 3.520166666666667,
+        "peak": 0.712369441986084,
+        "rms": 0.05889338254928589,
+        "clipping": false,
+        "has_nan": false,
+        "has_inf": false,
+        "subtype": "PCM_24",
+        "dc_offset": -5.526575478143059e-05,
+        "silence_ratio": 0.3505219923299086,
+        "max_sample_jump": 0.1471942663192749,
+        "edge_silence_seconds": {
+          "start": 0.29972916666666666,
+          "end": 0.0638125
+        },
+        "longest_silence_seconds": 0.36991666666666667
+      },
+      "reference_qc": {
+        "status": "WARN",
+        "failures": [],
+        "warnings": [
+          "reference_too_short"
+        ],
+        "version": "1",
+        "unmeasured": [
+          "noise",
+          "music",
+          "reverb",
+          "speaker_identity",
+          "emotion",
+          "repeated_audio"
+        ],
+        "note": "Acoustic thresholds are conservative engineering heuristics, not calibrated perceptual scores"
+      },
+      "transcript_text": "我知道前面很危险，可总得有人先迈出这一步。",
+      "transcript_sha256": "600eb61850e9df209fe440bdf6bc51e86b5188feba2273997ebd76a7ab1760a5",
+      "transcript_verification": "registered_text_not_independently_verified"
     }
-  }
+  },
+  "provenance": "unknown",
+  "source": "unknown",
+  "commercial_use": null,
+  "created_at": null,
+  "model_repo": null,
+  "model_revision": null,
+  "mlx_audio_version": null,
+  "tags": [],
+  "metadata_inspected_at": "2026-09-08T06:58:49.809465+00:00"
 }

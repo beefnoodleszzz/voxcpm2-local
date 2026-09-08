@@ -11,7 +11,58 @@
       "original": "neutral/original.wav",
       "quality_warnings": [
         "recommended duration is 5–15 seconds"
-      ]
+      ],
+      "reference_sha256": "091e110eaf99cbd7e91508f7956daee9d0df25fa5101367f80df9ec4863ac5cb",
+      "reference_stats": {
+        "path": "neutral/reference.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "frames": 222728,
+        "duration": 4.6401666666666666,
+        "peak": 0.27411794662475586,
+        "rms": 0.04213758930563927,
+        "clipping": false,
+        "has_nan": false,
+        "has_inf": false,
+        "subtype": "PCM_24",
+        "dc_offset": -4.010228076367639e-05,
+        "silence_ratio": 0.3252173054128803,
+        "max_sample_jump": 0.10746288299560547,
+        "edge_silence_seconds": {
+          "start": 0.009395833333333334,
+          "end": 0.17308333333333334
+        },
+        "longest_silence_seconds": 0.47010416666666666
+      },
+      "reference_qc": {
+        "status": "WARN",
+        "failures": [],
+        "warnings": [
+          "reference_too_short"
+        ],
+        "version": "1",
+        "unmeasured": [
+          "noise",
+          "music",
+          "reverb",
+          "speaker_identity",
+          "emotion",
+          "repeated_audio"
+        ],
+        "note": "Acoustic thresholds are conservative engineering heuristics, not calibrated perceptual scores"
+      },
+      "transcript_text": "真正重要的并不是结果，而是你为什么作出这个选择。",
+      "transcript_sha256": "b1e86fde09abe5e3b634dea49379643a5fd555bc08e9991a323d12d80704868f",
+      "transcript_verification": "registered_text_not_independently_verified"
     }
-  }
+  },
+  "provenance": "unknown",
+  "source": "unknown",
+  "commercial_use": null,
+  "created_at": null,
+  "model_repo": null,
+  "model_revision": null,
+  "mlx_audio_version": null,
+  "tags": [],
+  "metadata_inspected_at": "2026-09-08T06:58:49.680681+00:00"
 }

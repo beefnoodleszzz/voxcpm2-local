@@ -11,7 +11,59 @@
       "original": "neutral/original.wav",
       "quality_warnings": [
         "recommended duration is 5–15 seconds"
-      ]
+      ],
+      "reference_sha256": "4fb37a92ce642ed22cac55b0adac2106f12852ceee57aefac8157595893a5723",
+      "reference_stats": {
+        "path": "neutral/reference.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "frames": 222728,
+        "duration": 4.6401666666666666,
+        "peak": 0.8994952440261841,
+        "rms": 0.1222740113735199,
+        "clipping": false,
+        "has_nan": false,
+        "has_inf": false,
+        "subtype": "PCM_24",
+        "dc_offset": -0.00013297410623636097,
+        "silence_ratio": 0.2733199238533099,
+        "max_sample_jump": 0.629638671875,
+        "edge_silence_seconds": {
+          "start": 0.0,
+          "end": 0.14672916666666666
+        },
+        "longest_silence_seconds": 0.14864583333333334
+      },
+      "reference_qc": {
+        "status": "WARN",
+        "failures": [],
+        "warnings": [
+          "waveform_discontinuity",
+          "reference_too_short"
+        ],
+        "version": "1",
+        "unmeasured": [
+          "noise",
+          "music",
+          "reverb",
+          "speaker_identity",
+          "emotion",
+          "repeated_audio"
+        ],
+        "note": "Acoustic thresholds are conservative engineering heuristics, not calibrated perceptual scores"
+      },
+      "transcript_text": "你以为自己赢了，其实每一步，都在我的计划里。",
+      "transcript_sha256": "3d2ea1fb8a3cf7fe007a0925d5f8500c8c9e39918b377dd3d5b1c7ce342ebcdc",
+      "transcript_verification": "registered_text_not_independently_verified"
     }
-  }
+  },
+  "provenance": "unknown",
+  "source": "unknown",
+  "commercial_use": null,
+  "created_at": null,
+  "model_repo": null,
+  "model_revision": null,
+  "mlx_audio_version": null,
+  "tags": [],
+  "metadata_inspected_at": "2026-09-08T06:58:49.813046+00:00"
 }

@@ -11,7 +11,58 @@
       "original": "neutral/original.wav",
       "quality_warnings": [
         "recommended duration is 5–15 seconds"
-      ]
+      ],
+      "reference_sha256": "242ae081da2d485814d07da75f3bdb0a2007c74510d691dfac1d48caa198e2d8",
+      "reference_stats": {
+        "path": "neutral/reference.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "frames": 176648,
+        "duration": 3.6801666666666666,
+        "peak": 0.9754316806793213,
+        "rms": 0.14350810647010803,
+        "clipping": false,
+        "has_nan": false,
+        "has_inf": false,
+        "subtype": "PCM_24",
+        "dc_offset": -0.0010469530243426561,
+        "silence_ratio": 0.12222612200534395,
+        "max_sample_jump": 0.1960606575012207,
+        "edge_silence_seconds": {
+          "start": 0.0,
+          "end": 0.09841666666666667
+        },
+        "longest_silence_seconds": 0.1000625
+      },
+      "reference_qc": {
+        "status": "WARN",
+        "failures": [],
+        "warnings": [
+          "reference_too_short"
+        ],
+        "version": "1",
+        "unmeasured": [
+          "noise",
+          "music",
+          "reverb",
+          "speaker_identity",
+          "emotion",
+          "repeated_audio"
+        ],
+        "note": "Acoustic thresholds are conservative engineering heuristics, not calibrated perceptual scores"
+      },
+      "transcript_text": "不是，你们先等一下，这口锅怎么又跑到我头上了？",
+      "transcript_sha256": "baa61344a51d399c7cb2657bcc034565dd13b9a52e7a78a8a6ac413881f558a1",
+      "transcript_verification": "registered_text_not_independently_verified"
     }
-  }
+  },
+  "provenance": "unknown",
+  "source": "unknown",
+  "commercial_use": null,
+  "created_at": null,
+  "model_repo": null,
+  "model_revision": null,
+  "mlx_audio_version": null,
+  "tags": [],
+  "metadata_inspected_at": "2026-09-08T06:58:49.797461+00:00"
 }

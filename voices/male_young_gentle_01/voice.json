@@ -11,7 +11,58 @@
       "original": "neutral/original.wav",
       "quality_warnings": [
         "recommended duration is 5–15 seconds"
-      ]
+      ],
+      "reference_sha256": "b078232df03e06ada27f6b3caeb54c18eaeec81888e91036d03d29ca9c9c4bc9",
+      "reference_stats": {
+        "path": "neutral/reference.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "frames": 192008,
+        "duration": 4.000166666666667,
+        "peak": 0.9678816795349121,
+        "rms": 0.16069690883159637,
+        "clipping": false,
+        "has_nan": false,
+        "has_inf": false,
+        "subtype": "PCM_24",
+        "dc_offset": -0.0002903129789046943,
+        "silence_ratio": 0.27804049831257033,
+        "max_sample_jump": 0.13826608657836914,
+        "edge_silence_seconds": {
+          "start": 0.0006458333333333333,
+          "end": 0.0738125
+        },
+        "longest_silence_seconds": 0.24427083333333333
+      },
+      "reference_qc": {
+        "status": "WARN",
+        "failures": [],
+        "warnings": [
+          "reference_too_short"
+        ],
+        "version": "1",
+        "unmeasured": [
+          "noise",
+          "music",
+          "reverb",
+          "speaker_identity",
+          "emotion",
+          "repeated_audio"
+        ],
+        "note": "Acoustic thresholds are conservative engineering heuristics, not calibrated perceptual scores"
+      },
+      "transcript_text": "别着急，你慢慢说，我会一直在这里听着。",
+      "transcript_sha256": "f72a779f4ec1ad01485c76230dfb94bcd6d7b9075f4ee0fbf98c1c8d648b9651",
+      "transcript_verification": "registered_text_not_independently_verified"
     }
-  }
+  },
+  "provenance": "unknown",
+  "source": "unknown",
+  "commercial_use": null,
+  "created_at": null,
+  "model_repo": null,
+  "model_revision": null,
+  "mlx_audio_version": null,
+  "tags": [],
+  "metadata_inspected_at": "2026-09-08T06:58:49.834897+00:00"
 }

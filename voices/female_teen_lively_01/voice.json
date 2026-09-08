@@ -11,7 +11,58 @@
       "original": "neutral/original.wav",
       "quality_warnings": [
         "recommended duration is 5–15 seconds"
-      ]
+      ],
+      "reference_sha256": "cb78e67a1681e59e6954e608a3ece07e90e8147eb916e1af26d682e5f0d9b336",
+      "reference_stats": {
+        "path": "neutral/reference.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "frames": 192008,
+        "duration": 4.000166666666667,
+        "peak": 0.4610142707824707,
+        "rms": 0.05087348818778992,
+        "clipping": false,
+        "has_nan": false,
+        "has_inf": false,
+        "subtype": "PCM_24",
+        "dc_offset": -6.447007035603747e-05,
+        "silence_ratio": 0.3300227073871922,
+        "max_sample_jump": 0.13900530338287354,
+        "edge_silence_seconds": {
+          "start": 0.021333333333333333,
+          "end": 0.2930833333333333
+        },
+        "longest_silence_seconds": 0.5395833333333333
+      },
+      "reference_qc": {
+        "status": "WARN",
+        "failures": [],
+        "warnings": [
+          "reference_too_short"
+        ],
+        "version": "1",
+        "unmeasured": [
+          "noise",
+          "music",
+          "reverb",
+          "speaker_identity",
+          "emotion",
+          "repeated_audio"
+        ],
+        "note": "Acoustic thresholds are conservative engineering heuristics, not calibrated perceptual scores"
+      },
+      "transcript_text": "你们快看，我就说这里一定藏着秘密吧！",
+      "transcript_sha256": "7e3ef093954754e953b272453b09f335e904f70fe13f2c2228c54cc1ed24d468",
+      "transcript_verification": "registered_text_not_independently_verified"
     }
-  }
+  },
+  "provenance": "unknown",
+  "source": "unknown",
+  "commercial_use": null,
+  "created_at": null,
+  "model_repo": null,
+  "model_revision": null,
+  "mlx_audio_version": null,
+  "tags": [],
+  "metadata_inspected_at": "2026-09-08T06:58:49.716490+00:00"
 }

@@ -11,7 +11,58 @@
       "original": "neutral/original.wav",
       "quality_warnings": [
         "recommended duration is 5–15 seconds"
-      ]
+      ],
+      "reference_sha256": "ae1aa39674e44b65f536a4526f91e4d7c337f59e8cef491f2bb152e0965654a7",
+      "reference_stats": {
+        "path": "neutral/reference.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "frames": 207368,
+        "duration": 4.320166666666666,
+        "peak": 0.7247505187988281,
+        "rms": 0.08108188211917877,
+        "clipping": false,
+        "has_nan": false,
+        "has_inf": false,
+        "subtype": "PCM_24",
+        "dc_offset": -0.0002969972847495228,
+        "silence_ratio": 0.1997174105937271,
+        "max_sample_jump": 0.13604414463043213,
+        "edge_silence_seconds": {
+          "start": 4.1666666666666665e-05,
+          "end": 0.03889583333333333
+        },
+        "longest_silence_seconds": 0.06814583333333334
+      },
+      "reference_qc": {
+        "status": "WARN",
+        "failures": [],
+        "warnings": [
+          "reference_too_short"
+        ],
+        "version": "1",
+        "unmeasured": [
+          "noise",
+          "music",
+          "reverb",
+          "speaker_identity",
+          "emotion",
+          "repeated_audio"
+        ],
+        "note": "Acoustic thresholds are conservative engineering heuristics, not calibrated perceptual scores"
+      },
+      "transcript_text": "这个家有这个家的规矩，今天谁也不能例外。",
+      "transcript_sha256": "707678b8b47b109f317a74135bee9f94ee7e6aee50d58e182aaece8090452d84",
+      "transcript_verification": "registered_text_not_independently_verified"
     }
-  }
+  },
+  "provenance": "unknown",
+  "source": "unknown",
+  "commercial_use": null,
+  "created_at": null,
+  "model_repo": null,
+  "model_revision": null,
+  "mlx_audio_version": null,
+  "tags": [],
+  "metadata_inspected_at": "2026-09-08T06:58:49.801491+00:00"
 }

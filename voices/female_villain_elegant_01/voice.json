@@ -9,7 +9,56 @@
       "reference": "neutral/reference.wav",
       "transcript": "neutral/transcript.txt",
       "original": "neutral/original.wav",
-      "quality_warnings": []
+      "quality_warnings": [],
+      "reference_sha256": "1c40ae1293810596923c3cfa71c17a4a1a4c86bd006cb18bff084a8bc2b92894",
+      "reference_stats": {
+        "path": "neutral/reference.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "frames": 261128,
+        "duration": 5.440166666666666,
+        "peak": 0.5600557327270508,
+        "rms": 0.05917683243751526,
+        "clipping": false,
+        "has_nan": false,
+        "has_inf": false,
+        "subtype": "PCM_24",
+        "dc_offset": -4.318234641687013e-05,
+        "silence_ratio": 0.326996721914157,
+        "max_sample_jump": 0.1159442663192749,
+        "edge_silence_seconds": {
+          "start": 0.009395833333333334,
+          "end": 0.02020833333333333
+        },
+        "longest_silence_seconds": 0.4535208333333333
+      },
+      "reference_qc": {
+        "status": "PASS",
+        "failures": [],
+        "warnings": [],
+        "version": "1",
+        "unmeasured": [
+          "noise",
+          "music",
+          "reverb",
+          "speaker_identity",
+          "emotion",
+          "repeated_audio"
+        ],
+        "note": "Acoustic thresholds are conservative engineering heuristics, not calibrated perceptual scores"
+      },
+      "transcript_text": "别紧张，我只是想看看，你能为这个秘密坚持多久。",
+      "transcript_sha256": "e20385ed94fffd3767fc7e0ec4e52fab71e6cac7c245560358440aa4789520cf",
+      "transcript_verification": "registered_text_not_independently_verified"
     }
-  }
+  },
+  "provenance": "unknown",
+  "source": "unknown",
+  "commercial_use": null,
+  "created_at": null,
+  "model_repo": null,
+  "model_revision": null,
+  "mlx_audio_version": null,
+  "tags": [],
+  "metadata_inspected_at": "2026-09-08T06:58:49.720918+00:00"
 }

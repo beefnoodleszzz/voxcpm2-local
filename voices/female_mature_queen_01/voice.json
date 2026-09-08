@@ -11,7 +11,49 @@
       "original": "neutral/original.wav",
       "quality_warnings": [
         "recommended duration is 5–15 seconds"
-      ]
+      ],
+      "reference_sha256": "dda5382ba22c67b053012f6064849f5c297b5b1c20be29a36856bada4655d5d9",
+      "reference_stats": {
+        "path": "neutral/reference.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "frames": 215048,
+        "duration": 4.480166666666666,
+        "peak": 0.5387231111526489,
+        "rms": 0.056947410106658936,
+        "clipping": false,
+        "has_nan": false,
+        "has_inf": false,
+        "subtype": "PCM_24",
+        "dc_offset": -7.001620542723686e-05,
+        "silence_ratio": 0.2738504891931104,
+        "max_sample_jump": 0.12693381309509277,
+        "edge_silence_seconds": {
+          "start": 0.0002708333333333333,
+          "end": 0.12995833333333334
+        },
+        "longest_silence_seconds": 0.3587708333333333
+      },
+      "reference_qc": {
+        "status": "WARN",
+        "failures": [],
+        "warnings": [
+          "reference_too_short"
+        ],
+        "version": "1",
+        "unmeasured": [
+          "noise",
+          "music",
+          "reverb",
+          "speaker_identity",
+          "emotion",
+          "repeated_audio"
+        ],
+        "note": "Acoustic thresholds are conservative engineering heuristics, not calibrated perceptual scores"
+      },
+      "transcript_text": "机会只有一次，想清楚以后，再告诉我你的决定。",
+      "transcript_sha256": "f11c3ec45905b7a2a9b6bb7083b8693a8c18046a4898b2e60ec1bfa8d4105461",
+      "transcript_verification": "registered_text_not_independently_verified"
     },
     "gentle": {
       "reference": "gentle/reference.wav",
@@ -19,7 +61,49 @@
       "original": "gentle/original.wav",
       "quality_warnings": [
         "recommended duration is 5–15 seconds"
-      ]
+      ],
+      "reference_sha256": "7f7d61dac4512d15902c08aac99acc7e0d8ce93087a156a74b5e3b387218a238",
+      "reference_stats": {
+        "path": "gentle/reference.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "frames": 176648,
+        "duration": 3.6801666666666666,
+        "peak": 0.6871285438537598,
+        "rms": 0.08397271484136581,
+        "clipping": false,
+        "has_nan": false,
+        "has_inf": false,
+        "subtype": "PCM_24",
+        "dc_offset": -0.0001132523684646003,
+        "silence_ratio": 0.3955493410624519,
+        "max_sample_jump": 0.15475034713745117,
+        "edge_silence_seconds": {
+          "start": 2.0833333333333333e-05,
+          "end": 0.0733125
+        },
+        "longest_silence_seconds": 0.49166666666666664
+      },
+      "reference_qc": {
+        "status": "WARN",
+        "failures": [],
+        "warnings": [
+          "reference_too_short"
+        ],
+        "version": "1",
+        "unmeasured": [
+          "noise",
+          "music",
+          "reverb",
+          "speaker_identity",
+          "emotion",
+          "repeated_audio"
+        ],
+        "note": "Acoustic thresholds are conservative engineering heuristics, not calibrated perceptual scores"
+      },
+      "transcript_text": "别怕，慢慢来，我就在这里陪着你。",
+      "transcript_sha256": "57072694237e1f2372c142dd6e149283b8ed7e5b67c9b7a23ba116b289da04cf",
+      "transcript_verification": "registered_text_not_independently_verified"
     },
     "angry": {
       "reference": "angry/reference.wav",
@@ -27,7 +111,49 @@
       "original": "angry/original.wav",
       "quality_warnings": [
         "recommended duration is 5–15 seconds"
-      ]
+      ],
+      "reference_sha256": "e61dbe47f7cd9d1d127298489828612d73c2bf96786a3685f9bc4501fb74f321",
+      "reference_stats": {
+        "path": "angry/reference.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "frames": 184328,
+        "duration": 3.8401666666666667,
+        "peak": 0.5489416122436523,
+        "rms": 0.05419230833649635,
+        "clipping": false,
+        "has_nan": false,
+        "has_inf": false,
+        "subtype": "PCM_24",
+        "dc_offset": -6.505585770355538e-05,
+        "silence_ratio": 0.39220302938240525,
+        "max_sample_jump": 0.1077653169631958,
+        "edge_silence_seconds": {
+          "start": 0.006333333333333333,
+          "end": 0.04729166666666667
+        },
+        "longest_silence_seconds": 0.6363541666666667
+      },
+      "reference_qc": {
+        "status": "WARN",
+        "failures": [],
+        "warnings": [
+          "reference_too_short"
+        ],
+        "version": "1",
+        "unmeasured": [
+          "noise",
+          "music",
+          "reverb",
+          "speaker_identity",
+          "emotion",
+          "repeated_audio"
+        ],
+        "note": "Acoustic thresholds are conservative engineering heuristics, not calibrated perceptual scores"
+      },
+      "transcript_text": "我最后问你一次，你到底有没有骗我？",
+      "transcript_sha256": "4e5c688020d95afbcbef1c1986e9d5a6d91b7ad6deb1c859b55adaccd7f79aa9",
+      "transcript_verification": "registered_text_not_independently_verified"
     },
     "sad": {
       "reference": "sad/reference.wav",
@@ -35,7 +161,49 @@
       "original": "sad/original.wav",
       "quality_warnings": [
         "recommended duration is 5–15 seconds"
-      ]
+      ],
+      "reference_sha256": "686398961b8a0ef14d209b24751db1e32126825fd5aba2e6d40a5ee86aaf469b",
+      "reference_stats": {
+        "path": "sad/reference.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "frames": 192008,
+        "duration": 4.000166666666667,
+        "peak": 0.45183849334716797,
+        "rms": 0.0574677549302578,
+        "clipping": false,
+        "has_nan": false,
+        "has_inf": false,
+        "subtype": "PCM_24",
+        "dc_offset": -8.141283615259454e-05,
+        "silence_ratio": 0.3729532102829049,
+        "max_sample_jump": 0.16795587539672852,
+        "edge_silence_seconds": {
+          "start": 0.004125,
+          "end": 0.1004375
+        },
+        "longest_silence_seconds": 0.684375
+      },
+      "reference_qc": {
+        "status": "WARN",
+        "failures": [],
+        "warnings": [
+          "reference_too_short"
+        ],
+        "version": "1",
+        "unmeasured": [
+          "noise",
+          "music",
+          "reverb",
+          "speaker_identity",
+          "emotion",
+          "repeated_audio"
+        ],
+        "note": "Acoustic thresholds are conservative engineering heuristics, not calibrated perceptual scores"
+      },
+      "transcript_text": "原来你早就决定离开，只是一直没有告诉我。",
+      "transcript_sha256": "a9129d9044ecf54b94f8514f7d4f7fd7a0ab964fdf615ad4a09e42d708a26b19",
+      "transcript_verification": "registered_text_not_independently_verified"
     },
     "panic": {
       "reference": "panic/reference.wav",
@@ -43,7 +211,49 @@
       "original": "panic/original.wav",
       "quality_warnings": [
         "recommended duration is 5–15 seconds"
-      ]
+      ],
+      "reference_sha256": "18a9f77f6bb399b22a1c080f08c30cbaef7006d71e65c313915de315cb29e56a",
+      "reference_stats": {
+        "path": "panic/reference.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "frames": 153608,
+        "duration": 3.2001666666666666,
+        "peak": 0.824522852897644,
+        "rms": 0.14802631735801697,
+        "clipping": false,
+        "has_nan": false,
+        "has_inf": false,
+        "subtype": "PCM_24",
+        "dc_offset": -0.00010644984286045656,
+        "silence_ratio": 0.17495182542575907,
+        "max_sample_jump": 0.32063746452331543,
+        "edge_silence_seconds": {
+          "start": 2.0833333333333333e-05,
+          "end": 0.08958333333333333
+        },
+        "longest_silence_seconds": 0.0933125
+      },
+      "reference_qc": {
+        "status": "WARN",
+        "failures": [],
+        "warnings": [
+          "reference_too_short"
+        ],
+        "version": "1",
+        "unmeasured": [
+          "noise",
+          "music",
+          "reverb",
+          "speaker_identity",
+          "emotion",
+          "repeated_audio"
+        ],
+        "note": "Acoustic thresholds are conservative engineering heuristics, not calibrated perceptual scores"
+      },
+      "transcript_text": "别过去！那扇门后面，好像真的有人！",
+      "transcript_sha256": "7c451962ec0ec7881cbfb61d12010a05a16f0e16f503e7ca6d3b3d5829ce3400",
+      "transcript_verification": "registered_text_not_independently_verified"
     },
     "whisper": {
       "reference": "whisper/reference.wav",
@@ -51,7 +261,58 @@
       "original": "whisper/original.wav",
       "quality_warnings": [
         "recommended duration is 5–15 seconds"
-      ]
+      ],
+      "reference_sha256": "0d3ca8be964f570c058f34b667a1684db383edb2a4ef94d2e828e6151d7ad9a8",
+      "reference_stats": {
+        "path": "whisper/reference.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "frames": 168968,
+        "duration": 3.520166666666667,
+        "peak": 0.5136198997497559,
+        "rms": 0.04869179427623749,
+        "clipping": false,
+        "has_nan": false,
+        "has_inf": false,
+        "subtype": "PCM_24",
+        "dc_offset": -5.812765812152065e-05,
+        "silence_ratio": 0.3057679560626864,
+        "max_sample_jump": 0.1288083791732788,
+        "edge_silence_seconds": {
+          "start": 0.0051875,
+          "end": 0.021333333333333333
+        },
+        "longest_silence_seconds": 0.24947916666666667
+      },
+      "reference_qc": {
+        "status": "WARN",
+        "failures": [],
+        "warnings": [
+          "reference_too_short"
+        ],
+        "version": "1",
+        "unmeasured": [
+          "noise",
+          "music",
+          "reverb",
+          "speaker_identity",
+          "emotion",
+          "repeated_audio"
+        ],
+        "note": "Acoustic thresholds are conservative engineering heuristics, not calibrated perceptual scores"
+      },
+      "transcript_text": "小声一点，他们可能就在外面的走廊里。",
+      "transcript_sha256": "fe91937370c04106b0b7d9c881b69223878bfb0af825fa01c0774eeb44d55f6d",
+      "transcript_verification": "registered_text_not_independently_verified"
     }
-  }
+  },
+  "provenance": "unknown",
+  "source": "unknown",
+  "commercial_use": null,
+  "created_at": null,
+  "model_repo": null,
+  "model_revision": null,
+  "mlx_audio_version": null,
+  "tags": [],
+  "metadata_inspected_at": "2026-09-08T06:58:49.700754+00:00"
 }

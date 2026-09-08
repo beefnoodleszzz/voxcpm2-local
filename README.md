@@ -2,6 +2,78 @@
 
 Production-oriented local Chinese dubbing on MLX-Audio with `mlx-community/VoxCPM2-bf16`. Raw masters are 48kHz, mono, PCM-24 WAV and are never overwritten. The model is loaded once per process.
 
+The workstation adds traceable preparation, bounded generation policies, offline ASR, audio QC,
+content-based resume, candidate review and separate approved/delivery masters. The `production`
+profile uses an approved **10 → 20 → 30-step adaptive schedule**. Normally it generates one
+10-step take and stops when audio QC passes and calibrated ASR CER is at most 0.12. It generates
+the second or third take only when a gate fails. The recommended take still needs one human listen.
+
+## Workstation workflow
+
+```bash
+uv sync --locked
+.venv/bin/python scripts/download_model.py
+.venv/bin/python scripts/download_asr.py  # optional, pinned local ASR weights (~936 MB)
+.venv/bin/python scripts/check_system.py
+.venv/bin/python scripts/prepare_episode.py configs/episode.source.example.json episode.prepared.json
+.venv/bin/python scripts/batch_dub.py episode.prepared.json --dry-run
+.venv/bin/python scripts/batch_dub.py episode.prepared.json
+.venv/bin/python scripts/review_project.py episode_workstation_example
+```
+
+Repeat the batch command to resume matching WAV/JSON pairs. Changed inputs, reference, voice
+metadata, model, code or configuration create a new `outputs/raw/<project>/run_NNNN/` revision.
+Old or corrupt outputs remain intact and are not reused without sufficient provenance.
+
+Use `./scripts/start_webui.sh` for reference listening, emotion direction, candidate A/B,
+QC/ASR inspection, ratings and approval. Existing batch/benchmark raw WAVs can also be loaded.
+Regeneration creates a new directory. Approval requires a named reviewer, listening confirmation
+and notes when QC/ASR remains unresolved. Alternatively, after listening:
+
+```bash
+.venv/bin/python scripts/review_project.py --candidate outputs/raw/PROJECT/run_0001/LINE/candidate_01.wav \
+  --decision approve --reviewer YOUR_NAME --listened --notes "核对了台词、角色和表演"
+.venv/bin/python scripts/finalize_project.py PROJECT
+```
+
+Finalization accepts a project ID (exports every approved revision) or an exact approved WAV.
+Default delivery is a byte-identical copy. Optional `--trim`, `--peak-dbfs -3` and
+`--target-lufs <delivery-spec>` produce a separate processed delivery. Raw and approved stay intact.
+
+See [ARCHITECTURE.md](ARCHITECTURE.md) for data flow, [QUALITY.md](QUALITY.md) for profiles,
+ASR calibration and benchmark listening, [VOICE_LIBRARY.md](VOICE_LIBRARY.md) for references,
+and [AUDIT_REPORT.md](AUDIT_REPORT.md) for the initial audit.
+
+## Regression and real-model checks
+
+```bash
+ruff check src scripts tests
+ruff format --check src scripts tests
+.venv/bin/python -m pytest -q  # no real model required
+.venv/bin/python scripts/benchmark_quality.py --dry-run
+.venv/bin/python scripts/benchmark_quality.py  # 10 categories × 10/20/30 steps
+.venv/bin/python scripts/benchmark_quality.py --suite benchmark_suite/consistency.json --steps 30
+```
+
+Ruff 0.11.11 was used for validation. Keep mlx-audio==0.5.1 and the committed uv lock.
+The 30-take A/B was human-approved on 2026-09-08 with no obvious audible difference among step
+counts. Measurements and the production decision are recorded in `benchmark_suite/decision.json`.
+Only one process may own the BF16 model; stop a loaded API/WebUI before generating through a
+separate CLI process. All services bind to loopback.
+
+## Long-form workflow
+
+```bash
+.venv/bin/python scripts/prepare_longform.py story.txt story.source.json --project story_001 --character narrator_warm_01
+.venv/bin/python scripts/prepare_episode.py story.source.json story.prepared.json
+.venv/bin/python scripts/batch_dub.py story.prepared.json
+# After approving each segment, pass approved WAVs in narrative order:
+.venv/bin/python scripts/join_approved.py APPROVED_SEGMENT_1.wav APPROVED_SEGMENT_2.wav
+```
+
+Segmentation uses sentence/clause punctuation; an overlong unpunctuated clause requires a natural
+pause. Joining preserves breaths and optionally adds `--pause-seconds`; listen to the assembly.
+
 ## Install / download
 
 ```bash

@@ -11,7 +11,58 @@
       "original": "neutral/original.wav",
       "quality_warnings": [
         "recommended duration is 5–15 seconds"
-      ]
+      ],
+      "reference_sha256": "1add4f2aea8701d085c52d4dcf3a4ffb156ca0fffc0b51b1f791b93781f9cf81",
+      "reference_stats": {
+        "path": "neutral/reference.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "frames": 153608,
+        "duration": 3.2001666666666666,
+        "peak": 0.9794766902923584,
+        "rms": 0.13541661202907562,
+        "clipping": false,
+        "has_nan": false,
+        "has_inf": false,
+        "subtype": "PCM_24",
+        "dc_offset": -0.0005504533182829618,
+        "silence_ratio": 0.08207905838237592,
+        "max_sample_jump": 0.4982715845108032,
+        "edge_silence_seconds": {
+          "start": 0.000125,
+          "end": 0.07904166666666666
+        },
+        "longest_silence_seconds": 0.08064583333333333
+      },
+      "reference_qc": {
+        "status": "WARN",
+        "failures": [],
+        "warnings": [
+          "reference_too_short"
+        ],
+        "version": "1",
+        "unmeasured": [
+          "noise",
+          "music",
+          "reverb",
+          "speaker_identity",
+          "emotion",
+          "repeated_audio"
+        ],
+        "note": "Acoustic thresholds are conservative engineering heuristics, not calibrated perceptual scores"
+      },
+      "transcript_text": "站到我身后去，剩下的事情由我来处理。",
+      "transcript_sha256": "6fc993f00ec6c8d326c1aaf004e6fe7093364c67d77e7dd118559de6ac0ae121",
+      "transcript_verification": "registered_text_not_independently_verified"
     }
-  }
+  },
+  "provenance": "unknown",
+  "source": "unknown",
+  "commercial_use": null,
+  "created_at": null,
+  "model_repo": null,
+  "model_revision": null,
+  "mlx_audio_version": null,
+  "tags": [],
+  "metadata_inspected_at": "2026-09-08T06:58:49.793822+00:00"
 }

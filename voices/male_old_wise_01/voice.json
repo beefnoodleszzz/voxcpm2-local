@@ -9,7 +9,56 @@
       "reference": "neutral/reference.wav",
       "transcript": "neutral/transcript.txt",
       "original": "neutral/original.wav",
-      "quality_warnings": []
+      "quality_warnings": [],
+      "reference_sha256": "7e5bba2eaef1b16db1a64a714e3073a5a786d9a1289de95f25c1765967bd7cee",
+      "reference_stats": {
+        "path": "neutral/reference.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "frames": 261128,
+        "duration": 5.440166666666666,
+        "peak": 0.2550973892211914,
+        "rms": 0.032594576478004456,
+        "clipping": false,
+        "has_nan": false,
+        "has_inf": false,
+        "subtype": "PCM_24",
+        "dc_offset": -5.583319580182433e-05,
+        "silence_ratio": 0.22303621212585398,
+        "max_sample_jump": 0.11352598667144775,
+        "edge_silence_seconds": {
+          "start": 0.0,
+          "end": 4.1666666666666665e-05
+        },
+        "longest_silence_seconds": 0.19366666666666665
+      },
+      "reference_qc": {
+        "status": "PASS",
+        "failures": [],
+        "warnings": [],
+        "version": "1",
+        "unmeasured": [
+          "noise",
+          "music",
+          "reverb",
+          "speaker_identity",
+          "emotion",
+          "repeated_audio"
+        ],
+        "note": "Acoustic thresholds are conservative engineering heuristics, not calibrated perceptual scores"
+      },
+      "transcript_text": "年轻的时候总怕走错路，后来才明白，路都是走出来的。",
+      "transcript_sha256": "1ed2ee64e1db2b111e5ee29c7c7db84cb6a6f002bfc6cab74124465b0b1d2503",
+      "transcript_verification": "registered_text_not_independently_verified"
     }
-  }
+  },
+  "provenance": "unknown",
+  "source": "unknown",
+  "commercial_use": null,
+  "created_at": null,
+  "model_repo": null,
+  "model_revision": null,
+  "mlx_audio_version": null,
+  "tags": [],
+  "metadata_inspected_at": "2026-09-08T06:58:49.806302+00:00"
 }

@@ -9,7 +9,56 @@
       "reference": "neutral/reference.wav",
       "transcript": "neutral/transcript.txt",
       "original": "neutral/original.wav",
-      "quality_warnings": []
+      "quality_warnings": [],
+      "reference_sha256": "25238389603410b2baea61b0d45d176c5e5837ba4868c68e7699eae5ad073da0",
+      "reference_stats": {
+        "path": "neutral/reference.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "frames": 276488,
+        "duration": 5.760166666666667,
+        "peak": 0.440818190574646,
+        "rms": 0.06169384717941284,
+        "clipping": false,
+        "has_nan": false,
+        "has_inf": false,
+        "subtype": "PCM_24",
+        "dc_offset": -0.0007395684369839728,
+        "silence_ratio": 0.32298327594687654,
+        "max_sample_jump": 0.10462629795074463,
+        "edge_silence_seconds": {
+          "start": 0.03285416666666666,
+          "end": 0.15820833333333334
+        },
+        "longest_silence_seconds": 0.26666666666666666
+      },
+      "reference_qc": {
+        "status": "PASS",
+        "failures": [],
+        "warnings": [],
+        "version": "1",
+        "unmeasured": [
+          "noise",
+          "music",
+          "reverb",
+          "speaker_identity",
+          "emotion",
+          "repeated_audio"
+        ],
+        "note": "Acoustic thresholds are conservative engineering heuristics, not calibrated perceptual scores"
+      },
+      "transcript_text": "雨已经停了，可我还是觉得，今晚有些事情不会结束。",
+      "transcript_sha256": "4aa879fc51bef12ef08a337f2243aea9cf8c7e92ac02db293ca2243ed77e479c",
+      "transcript_verification": "registered_text_not_independently_verified"
     }
-  }
+  },
+  "provenance": "unknown",
+  "source": "unknown",
+  "commercial_use": null,
+  "created_at": null,
+  "model_repo": null,
+  "model_revision": null,
+  "mlx_audio_version": null,
+  "tags": [],
+  "metadata_inspected_at": "2026-09-08T06:58:49.773169+00:00"
 }

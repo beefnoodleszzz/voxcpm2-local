@@ -9,7 +9,56 @@
       "reference": "neutral/reference.wav",
       "transcript": "neutral/transcript.txt",
       "original": "neutral/original.wav",
-      "quality_warnings": []
+      "quality_warnings": [],
+      "reference_sha256": "b687b765503733efc046e8522324023f13d40a5f377a4f1346ffb9f14119e8ca",
+      "reference_stats": {
+        "path": "neutral/reference.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "frames": 330248,
+        "duration": 6.880166666666667,
+        "peak": 0.5968990325927734,
+        "rms": 0.09880642592906952,
+        "clipping": false,
+        "has_nan": false,
+        "has_inf": false,
+        "subtype": "PCM_24",
+        "dc_offset": -0.00010978017962770537,
+        "silence_ratio": 0.25319759695743804,
+        "max_sample_jump": 0.4581676721572876,
+        "edge_silence_seconds": {
+          "start": 0.0,
+          "end": 0.13833333333333334
+        },
+        "longest_silence_seconds": 0.8599791666666666
+      },
+      "reference_qc": {
+        "status": "PASS",
+        "failures": [],
+        "warnings": [],
+        "version": "1",
+        "unmeasured": [
+          "noise",
+          "music",
+          "reverb",
+          "speaker_identity",
+          "emotion",
+          "repeated_audio"
+        ],
+        "note": "Acoustic thresholds are conservative engineering heuristics, not calibrated perceptual scores"
+      },
+      "transcript_text": "凌晨两点十七分，走廊尽头那盏灯，第三次亮了起来。",
+      "transcript_sha256": "2a797a753c5b7cb2ae3ecc7e9ed0a7704eb40feb295da74714b70d87c99398bd",
+      "transcript_verification": "registered_text_not_independently_verified"
     }
-  }
+  },
+  "provenance": "unknown",
+  "source": "unknown",
+  "commercial_use": null,
+  "created_at": null,
+  "model_repo": null,
+  "model_revision": null,
+  "mlx_audio_version": null,
+  "tags": [],
+  "metadata_inspected_at": "2026-09-08T06:58:49.857674+00:00"
 }
