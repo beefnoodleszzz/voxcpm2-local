@@ -1,14 +1,15 @@
 #!/usr/bin/env python3
 """Read-only readiness check for the local BF16 VoxCPM2 production stack."""
+
 import json
 import platform
 import sys
 from importlib.metadata import PackageNotFoundError, version
-from pathlib import Path
 
 import _bootstrap  # noqa: F401
 from src.audio_utils import inspect_audio
-from src.voice_library import ROOT, VoiceLibrary
+from src.voice_library import VoiceLibrary
+from src.provenance import model_identity, model_path
 
 
 def package_version(name):
@@ -20,7 +21,12 @@ def package_version(name):
 
 def main():
     errors, warnings = [], []
-    model = ROOT / "models/VoxCPM2-bf16"
+    model = model_path()
+    try:
+        identity = model_identity(model)
+    except (ValueError, OSError, KeyError) as exc:
+        errors.append(f"model lock/integrity: {exc}")
+        identity = {}
     required = ["config.json", "model.safetensors.index.json", "tokenizer.json"]
     if not model.is_dir():
         errors.append(f"BF16 model directory missing: {model}")
@@ -58,6 +64,7 @@ def main():
         "mlx_audio": package_version("mlx-audio"),
         "model": str(model),
         "model_format": "BF16",
+        "model_identity": identity,
         "voices": len(library.list()),
         "errors": errors,
         "warnings": warnings,

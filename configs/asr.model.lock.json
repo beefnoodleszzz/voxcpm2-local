@@ -1,0 +1,6 @@
+{
+  "repo": "mlx-community/SenseVoiceSmall",
+  "revision": "8ddd966bd96243cff196422f81f0c5d955814792",
+  "local_path": "models/SenseVoiceSmall",
+  "purpose": "Optional offline transcript verification; not a TTS model"
+}

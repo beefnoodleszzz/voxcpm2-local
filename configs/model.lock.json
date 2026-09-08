@@ -1,0 +1,7 @@
+{
+  "repo": "mlx-community/VoxCPM2-bf16",
+  "revision": "a7fb80d9056983135a54ca3f71fcc5a637ccddf5",
+  "format": "bf16",
+  "provenance": "Existing local Hugging Face download metadata; retain current tested installation",
+  "mlx_audio_version": "0.5.1"
+}

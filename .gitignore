@@ -1,6 +1,11 @@
 .venv/
 __pycache__/
 .pytest_cache/
+.ruff_cache/
+.cache/
+.env
+.env.*
+!.env.example
 .DS_Store
 models/VoxCPM2-bf16/*
 !models/VoxCPM2-bf16/.gitkeep
@@ -8,6 +13,12 @@ outputs/**/*.wav
 outputs/**/*.json
 voices/**/original.*
 voices/**/reference.wav
+voices/**/*.wav
+voices/**/*.mp3
+voices/**/*.flac
+voices/**/*.m4a
+outputs/
+models/*/
 
 
 # Beads / Dolt files (added by bd init)
