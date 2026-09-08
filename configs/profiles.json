@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "default": "production",
+  "profiles": {
+    "production": {"steps": [10, 20, 30], "early_stop": true, "experimental": false},
+    "fast": {"steps": [10], "early_stop": true, "experimental": true},
+    "balanced": {"steps": [10, 20], "early_stop": true, "experimental": true},
+    "quality": {"steps": [10, 20, 30], "early_stop": true, "experimental": true},
+    "ultimate": {"steps": [30, 30, 30], "early_stop": false, "experimental": false}
+  },
+  "note": "Production adaptive schedule approved after the 2026-09-08 fixed 30-take A/B: all takes passed human listening and objective audio QC. Human approval remains required for masters."
+}

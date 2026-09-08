@@ -1,0 +1,6 @@
+{
+  "backend_id": "SenseVoiceSmall@8ddd966bd96243cff196422f81f0c5d955814792:zh:itn=false",
+  "command": [".venv/bin/python", "scripts/asr_transcribe.py"],
+  "timeout_seconds": 180,
+  "calibration": null
+}

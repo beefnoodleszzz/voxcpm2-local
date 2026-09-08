@@ -1,0 +1,9 @@
+{
+  "project": "episode_workstation_example",
+  "profile": "production",
+  "normalization_profile": "dialogue",
+  "lines": [
+    {"id": "S01_L01", "character_id": "male_young_cold_01", "emotion": "压怒", "text": "我最后问你一次，你到底有没有骗我？"},
+    {"id": "S01_L02", "character_id": "female_young_cool_01", "emotion": "平静", "text": "今天是2026年9月8日，我记得很清楚。"}
+  ]
+}

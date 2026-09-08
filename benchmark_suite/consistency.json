@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "cases": [
+    {"id": "neutral", "text": "你终于回来了，我一直在这里等你。", "emotion": "neutral"},
+    {"id": "gentle", "text": "你终于回来了，我一直在这里等你。", "emotion": "gentle"},
+    {"id": "angry", "text": "你终于回来了，我一直在这里等你。", "emotion": "angry"},
+    {"id": "sad", "text": "你终于回来了，我一直在这里等你。", "emotion": "sad"},
+    {"id": "panic", "text": "你终于回来了，我一直在这里等你。", "emotion": "panic"},
+    {"id": "whisper", "text": "你终于回来了，我一直在这里等你。", "emotion": "whisper"}
+  ]
+}

@@ -1,0 +1,5 @@
+[
+  {"input": "VoxCPM2", "expected": "VoxCPM2"},
+  {"input": "发给test@example.com", "expected": "发给test@example.com"},
+  {"input": "https://example.com/42", "expected": "https://example.com/42"}
+]

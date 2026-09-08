@@ -1,0 +1,4 @@
+[
+  {"input": "重庆的行长", "expected": "重庆的行长", "warnings": 2},
+  {"input": "AI模型", "expected": "A I模型", "warnings": 0}
+]

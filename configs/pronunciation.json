@@ -1,0 +1,8 @@
+{
+  "重庆": {"pinyin": "chóng qìng", "note": "Requires listening; pinyin is not injected into VoxCPM2 text"},
+  "行长": {"pinyin": "háng zhǎng", "note": "Requires listening; use an explicitly tested spoken replacement if needed"},
+  "AI": {"spoken": "A I", "expected": "AI"},
+  "VoxCPM2": {"spoken": "Vox CPM 二", "expected": "Vox CPM 二"},
+  "km": {"spoken": "千米", "expected": "千米"},
+  "kg": {"spoken": "千克", "expected": "千克"}
+}

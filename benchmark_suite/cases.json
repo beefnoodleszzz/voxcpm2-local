@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "cases": [
+    {"id": "dialogue", "text": "你昨天为什么没有告诉我？", "emotion": "neutral"},
+    {"id": "angry", "text": "我最后问你一次，你到底有没有骗我？", "emotion": "angry"},
+    {"id": "sad", "text": "没关系，你走吧，我一个人也可以。", "emotion": "sad"},
+    {"id": "panic", "text": "别回头，他就在你后面。", "emotion": "panic"},
+    {"id": "whisper", "text": "先别说话，外面有人。", "emotion": "whisper"},
+    {"id": "long", "text": "我知道你现在很难相信这些话，可是从我们第一次在车站见面开始，我就一直想把真相告诉你，只是每次话到嘴边，又担心你会因此离开。", "emotion": "neutral"},
+    {"id": "numbers", "text": "今天是2026年9月8日，价格是199.9元。", "emotion": "neutral"},
+    {"id": "mixed", "text": "我们的AI模型已经升级到VoxCPM2。", "emotion": "neutral"},
+    {"id": "polyphones", "text": "银行的行长说，重新出发以后，我们还要去重庆。", "emotion": "neutral"},
+    {"id": "names", "text": "单老师和曾先生约好，明天从长沙出发，到厦门见欧阳先生。", "emotion": "neutral"}
+  ]
+}

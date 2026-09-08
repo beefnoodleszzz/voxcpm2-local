@@ -1,0 +1,39 @@
+{
+  "decision_version": 1,
+  "reviewed_at": "2026-09-08",
+  "review_scope": "30 fixed A/B takes: 10 text categories at 10, 20 and 30 steps",
+  "benchmark_sha256": "6f29872db9786bdd80e2b0daeef0f825546af0f96314d85b037d655b62fb676e",
+  "human_verdict": {
+    "all_takes_passed": true,
+    "obvious_quality_difference": false,
+    "naturalness": "pass",
+    "emotion": "pass",
+    "identity": "pass",
+    "pronunciation": "pass",
+    "prosody": "pass",
+    "artifacts": "pass"
+  },
+  "objective_results": {
+    "audio_qc_passed": 30,
+    "audio_qc_failed": 0,
+    "mean_cer": {"10": 0.0165, "20": 0.027, "30": 0.0147},
+    "maximum_cer": {"10": 0.1053, "20": 0.2105, "30": 0.1053},
+    "total_generation_seconds": {"10": 271.7, "20": 357.8, "30": 436.9}
+  },
+  "production_decision": {
+    "profile": "production",
+    "steps": [10, 20, 30],
+    "early_stop": true,
+    "audio_qc_required": "PASS",
+    "asr_cer_threshold": 0.12,
+    "normal_case": "Generate one 10-step take and stop when both gates pass",
+    "failure_case": "Escalate to 20 then 30 steps only after a failed gate",
+    "human_master_approval_required": true
+  },
+  "calibration_observation": {
+    "accepted_correct_speech_samples": 30,
+    "false_retry_count_at_threshold": 1,
+    "false_retry_rate": 0.0333,
+    "known_outlier": "20-step mixed-language take, CER 0.2105; retry is acceptable because the policy is bounded"
+  }
+}

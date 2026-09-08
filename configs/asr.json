@@ -1,0 +1,15 @@
+{
+  "backend_id": "SenseVoiceSmall@8ddd966bd96243cff196422f81f0c5d955814792:zh:itn=false",
+  "command": [".venv/bin/python", "scripts/asr_transcribe.py"],
+  "timeout_seconds": 180,
+  "calibration": {
+    "backend_id": "SenseVoiceSmall@8ddd966bd96243cff196422f81f0c5d955814792:zh:itn=false",
+    "threshold": 0.12,
+    "reviewed_samples": 30,
+    "human_reviewed": true,
+    "dataset_sha256": "6f29872db9786bdd80e2b0daeef0f825546af0f96314d85b037d655b62fb676e",
+    "reviewed_at": "2026-09-08",
+    "verdict": "All 30 fixed A/B takes passed human listening without an obvious quality difference",
+    "rationale": "Threshold 0.12 accepts every human-approved 10-step take (observed max CER 0.1053), while rejecting the 20-step mixed-language ASR outlier at CER 0.2105 for escalation. It yields one false retry among 30 human-approved samples and remains bounded by the 30-step final attempt."
+  }
+}
