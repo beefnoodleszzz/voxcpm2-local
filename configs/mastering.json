@@ -1,0 +1,7 @@
+{
+  "raw_master": {"trim": false, "target_lufs": null, "peak_dbfs": null},
+  "drama_dialogue": {"trim": false, "target_lufs": null, "peak_dbfs": null},
+  "narration": {"trim": false, "target_lufs": null, "peak_dbfs": null},
+  "short_video": {"trim": false, "target_lufs": null, "peak_dbfs": null},
+  "note": "Use-case labels do not imply a calibrated loudness target. All processing is opt-in; choose delivery specs and listen before adopting targets."
+}
