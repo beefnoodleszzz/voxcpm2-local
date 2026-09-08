@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.DS_Store
+models/VoxCPM2-bf16/*
+!models/VoxCPM2-bf16/.gitkeep
+outputs/**/*.wav
+outputs/**/*.json
+voices/**/original.*
+voices/**/reference.wav
+
+
+# Beads / Dolt files (added by bd init)
+.dolt/
+*.db
+.beads-credential-key
+.beads/proxieddb/

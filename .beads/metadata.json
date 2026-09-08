@@ -1,0 +1,7 @@
+{
+  "database": "dolt",
+  "backend": "dolt",
+  "dolt_mode": "embedded",
+  "dolt_database": "voxcpm2_local",
+  "project_id": "1ee355c4-0423-4da9-b195-de51c2037856"
+}
