@@ -1,0 +1,23 @@
+{
+  "project": "voice_clone_smoke_20260908",
+  "seed": 20260908,
+  "inference_timesteps": 30,
+  "cfg_value": 2.0,
+  "warmup_patches": 0,
+  "max_tokens": 2000,
+  "candidates": 3,
+  "profile": "production",
+  "normalization_profile": "dialogue",
+  "lines": [
+    {"id":"VC01_doc_narrator","character_id":"voice_doc_narrator_01","style":"neutral","text":"这是本地声音克隆的中性测试句，重点检查音色稳定、吐字清楚和停连自然。"},
+    {"id":"VC02_reasoning_male","character_id":"voice_reasoning_male_01","style":"neutral","text":"这是本地声音克隆的中性测试句，重点检查音色稳定、吐字清楚和停连自然。"},
+    {"id":"VC03_podcast_female","character_id":"voice_podcast_female_01","style":"neutral","text":"这是本地声音克隆的中性测试句，重点检查音色稳定、吐字清楚和停连自然。"},
+    {"id":"VC04_suspense_male","character_id":"voice_suspense_male_01","style":"neutral","text":"这是本地声音克隆的中性测试句，重点检查音色稳定、吐字清楚和停连自然。"},
+    {"id":"VC05_elite_male","character_id":"voice_elite_male_01","style":"neutral","text":"这是本地声音克隆的中性测试句，重点检查音色稳定、吐字清楚和停连自然。"},
+    {"id":"VC06_cool_lead_female","character_id":"voice_cool_lead_female_01","style":"neutral","text":"这是本地声音克隆的中性测试句，重点检查音色稳定、吐字清楚和停连自然。"},
+    {"id":"VC07_queen_female","character_id":"voice_queen_female_01","style":"neutral","text":"这是本地声音克隆的中性测试句，重点检查音色稳定、吐字清楚和停连自然。"},
+    {"id":"VC08_warm_story_male","character_id":"voice_warm_story_male_01","style":"neutral","text":"这是本地声音克隆的中性测试句，重点检查音色稳定、吐字清楚和停连自然。"},
+    {"id":"VC09_cosyvoice_benchmark","character_id":"voice_benchmark_cosyvoice_male_01","style":"neutral","text":"这是本地声音克隆的中性测试句，重点检查音色稳定、吐字清楚和停连自然。"},
+    {"id":"VC10_f5tts_benchmark","character_id":"voice_benchmark_f5tts_male_01","style":"neutral","text":"这是本地声音克隆的中性测试句，重点检查音色稳定、吐字清楚和停连自然。"}
+  ]
+}

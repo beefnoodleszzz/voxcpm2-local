@@ -1,0 +1,135 @@
+{
+  "seed": 20260908,
+  "inference_timesteps": 30,
+  "cfg_value": 2.0,
+  "warmup_patches": 0,
+  "max_tokens": 2000,
+  "candidates": 3,
+  "profile": "production",
+  "normalization_profile": "dialogue",
+  "project_lexicon": {},
+  "episode_lexicon": {},
+  "project": "zip_voice_clone_smoke_20260908",
+  "lines": [
+    {
+      "id": "ZIP01_bimushuangyu",
+      "character_id": "voice_bimushuangyu_gaoshi_01",
+      "style": "neutral",
+      "text": "这是推荐声音的本地克隆试听句,重点检查音色稳定、吐字清楚和停连自然。",
+      "mode": "controllable",
+      "instruct": "自然生活化对白，语气克制，停连随语义变化，不要播音腔，不要机械匀速",
+      "seed": null,
+      "preparation": {
+        "text_original": "这是推荐声音的本地克隆试听句，重点检查音色稳定、吐字清楚和停连自然。",
+        "text_normalized": "这是推荐声音的本地克隆试听句,重点检查音色稳定、吐字清楚和停连自然。",
+        "text_spoken": "这是推荐声音的本地克隆试听句,重点检查音色稳定、吐字清楚和停连自然。",
+        "text_expected": "这是推荐声音的本地克隆试听句,重点检查音色稳定、吐字清楚和停连自然。",
+        "normalization": {
+          "original": "这是推荐声音的本地克隆试听句，重点检查音色稳定、吐字清楚和停连自然。",
+          "normalized": "这是推荐声音的本地克隆试听句,重点检查音色稳定、吐字清楚和停连自然。",
+          "profile": "dialogue",
+          "version": "1",
+          "warnings": [],
+          "changed": true
+        },
+        "pronunciation": {
+          "text": "这是推荐声音的本地克隆试听句,重点检查音色稳定、吐字清楚和停连自然。",
+          "expected": "这是推荐声音的本地克隆试听句,重点检查音色稳定、吐字清楚和停连自然。",
+          "applied": [],
+          "warnings": [],
+          "sha256": "4676e781439abce0306eb556804fd2e305a6a574ed2871b098f05044ac35be7d"
+        }
+      }
+    },
+    {
+      "id": "ZIP02_yanshen",
+      "character_id": "voice_yanshen_yujie_01",
+      "style": "neutral",
+      "text": "这是推荐声音的本地克隆试听句,重点检查音色稳定、吐字清楚和停连自然。",
+      "mode": "controllable",
+      "instruct": "自然生活化对白，语气克制，停连随语义变化，不要播音腔，不要机械匀速",
+      "seed": null,
+      "preparation": {
+        "text_original": "这是推荐声音的本地克隆试听句，重点检查音色稳定、吐字清楚和停连自然。",
+        "text_normalized": "这是推荐声音的本地克隆试听句,重点检查音色稳定、吐字清楚和停连自然。",
+        "text_spoken": "这是推荐声音的本地克隆试听句,重点检查音色稳定、吐字清楚和停连自然。",
+        "text_expected": "这是推荐声音的本地克隆试听句,重点检查音色稳定、吐字清楚和停连自然。",
+        "normalization": {
+          "original": "这是推荐声音的本地克隆试听句，重点检查音色稳定、吐字清楚和停连自然。",
+          "normalized": "这是推荐声音的本地克隆试听句,重点检查音色稳定、吐字清楚和停连自然。",
+          "profile": "dialogue",
+          "version": "1",
+          "warnings": [],
+          "changed": true
+        },
+        "pronunciation": {
+          "text": "这是推荐声音的本地克隆试听句,重点检查音色稳定、吐字清楚和停连自然。",
+          "expected": "这是推荐声音的本地克隆试听句,重点检查音色稳定、吐字清楚和停连自然。",
+          "applied": [],
+          "warnings": [],
+          "sha256": "4676e781439abce0306eb556804fd2e305a6a574ed2871b098f05044ac35be7d"
+        }
+      }
+    },
+    {
+      "id": "ZIP03_nanzhu",
+      "character_id": "voice_nanzhu_core_01",
+      "style": "neutral",
+      "text": "这是推荐声音的本地克隆试听句,重点检查音色稳定、吐字清楚和停连自然。",
+      "mode": "controllable",
+      "instruct": "自然生活化对白，语气克制，停连随语义变化，不要播音腔，不要机械匀速",
+      "seed": null,
+      "preparation": {
+        "text_original": "这是推荐声音的本地克隆试听句，重点检查音色稳定、吐字清楚和停连自然。",
+        "text_normalized": "这是推荐声音的本地克隆试听句,重点检查音色稳定、吐字清楚和停连自然。",
+        "text_spoken": "这是推荐声音的本地克隆试听句,重点检查音色稳定、吐字清楚和停连自然。",
+        "text_expected": "这是推荐声音的本地克隆试听句,重点检查音色稳定、吐字清楚和停连自然。",
+        "normalization": {
+          "original": "这是推荐声音的本地克隆试听句，重点检查音色稳定、吐字清楚和停连自然。",
+          "normalized": "这是推荐声音的本地克隆试听句,重点检查音色稳定、吐字清楚和停连自然。",
+          "profile": "dialogue",
+          "version": "1",
+          "warnings": [],
+          "changed": true
+        },
+        "pronunciation": {
+          "text": "这是推荐声音的本地克隆试听句,重点检查音色稳定、吐字清楚和停连自然。",
+          "expected": "这是推荐声音的本地克隆试听句,重点检查音色稳定、吐字清楚和停连自然。",
+          "applied": [],
+          "warnings": [],
+          "sha256": "4676e781439abce0306eb556804fd2e305a6a574ed2871b098f05044ac35be7d"
+        }
+      }
+    },
+    {
+      "id": "ZIP04_duoduo",
+      "character_id": "voice_duoduo_core_01",
+      "style": "neutral",
+      "text": "这是推荐声音的本地克隆试听句,重点检查音色稳定、吐字清楚和停连自然。",
+      "mode": "controllable",
+      "instruct": "自然生活化对白，语气克制，停连随语义变化，不要播音腔，不要机械匀速",
+      "seed": null,
+      "preparation": {
+        "text_original": "这是推荐声音的本地克隆试听句，重点检查音色稳定、吐字清楚和停连自然。",
+        "text_normalized": "这是推荐声音的本地克隆试听句,重点检查音色稳定、吐字清楚和停连自然。",
+        "text_spoken": "这是推荐声音的本地克隆试听句,重点检查音色稳定、吐字清楚和停连自然。",
+        "text_expected": "这是推荐声音的本地克隆试听句,重点检查音色稳定、吐字清楚和停连自然。",
+        "normalization": {
+          "original": "这是推荐声音的本地克隆试听句，重点检查音色稳定、吐字清楚和停连自然。",
+          "normalized": "这是推荐声音的本地克隆试听句,重点检查音色稳定、吐字清楚和停连自然。",
+          "profile": "dialogue",
+          "version": "1",
+          "warnings": [],
+          "changed": true
+        },
+        "pronunciation": {
+          "text": "这是推荐声音的本地克隆试听句,重点检查音色稳定、吐字清楚和停连自然。",
+          "expected": "这是推荐声音的本地克隆试听句,重点检查音色稳定、吐字清楚和停连自然。",
+          "applied": [],
+          "warnings": [],
+          "sha256": "4676e781439abce0306eb556804fd2e305a6a574ed2871b098f05044ac35be7d"
+        }
+      }
+    }
+  ]
+}

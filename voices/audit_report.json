@@ -1,6 +1,6 @@
 {
-  "characters": 25,
-  "styles": 55,
+  "characters": 41,
+  "styles": 71,
   "errors": [],
   "warnings": [
     "boy_natural_01/neutral: reference is 4.96s; use 5-30s, preferably 8-15s",
@@ -62,7 +62,12 @@
     "male_young_sunny_01/panic: peak 0.996 is close to full scale",
     "male_young_sunny_01/whisper: reference is 2.88s; use 5-30s, preferably 8-15s",
     "male_young_sunny_01/whisper: peak 0.985 is close to full scale",
-    "narrator_warm_01/neutral: reference is 4.48s; use 5-30s, preferably 8-15s"
+    "narrator_warm_01/neutral: reference is 4.48s; use 5-30s, preferably 8-15s",
+    "voice_benchmark_cosyvoice_male_01/neutral: reference is 3.48s; use 5-30s, preferably 8-15s",
+    "voice_cool_lead_female_01/neutral: reference is 4.16s; use 5-30s, preferably 8-15s",
+    "voice_elite_male_01/neutral: reference is 4.32s; use 5-30s, preferably 8-15s",
+    "voice_queen_female_01/neutral: reference is 4.48s; use 5-30s, preferably 8-15s",
+    "voice_warm_story_male_01/neutral: reference is 4.48s; use 5-30s, preferably 8-15s"
   ],
   "entries": [
     {
@@ -504,6 +509,134 @@
       "duration": 4.480166666666666,
       "peak": 0.9793521165847778,
       "rms": 0.22906719148159027
+    },
+    {
+      "character_id": "pilot002_gu_wuyan",
+      "name": "顾无言",
+      "style": "neutral",
+      "duration": 10.400166666666667,
+      "peak": 0.9210652112960815,
+      "rms": 0.12428545206785202
+    },
+    {
+      "character_id": "pilot002_shen_zhaoxue",
+      "name": "沈照雪",
+      "style": "neutral",
+      "duration": 5.920166666666667,
+      "peak": 0.6545114517211914,
+      "rms": 0.11032942682504654
+    },
+    {
+      "character_id": "voice_benchmark_cosyvoice_male_01",
+      "name": "标准中文男声（CosyVoice基准方向）",
+      "style": "neutral",
+      "duration": 3.48,
+      "peak": 0.473480224609375,
+      "rms": 0.05943220481276512
+    },
+    {
+      "character_id": "voice_benchmark_f5tts_male_01",
+      "name": "戏剧中文男声（F5-TTS基准方向）",
+      "style": "neutral",
+      "duration": 6.76,
+      "peak": 0.49761962890625,
+      "rms": 0.06373244524002075
+    },
+    {
+      "character_id": "voice_bimushuangyu_gaoshi_01",
+      "name": "比目双鱼组中心男声",
+      "style": "neutral",
+      "duration": 12.0,
+      "peak": 0.4855741262435913,
+      "rms": 0.04193957522511482
+    },
+    {
+      "character_id": "voice_cool_lead_female_01",
+      "name": "清冷独立大女声（都市短剧方向）",
+      "style": "neutral",
+      "duration": 4.160166666666667,
+      "peak": 0.36260986328125,
+      "rms": 0.0653633251786232
+    },
+    {
+      "character_id": "voice_doc_narrator_01",
+      "name": "沉稳胸腔共鸣男声（纪录片方向）",
+      "style": "neutral",
+      "duration": 9.5,
+      "peak": 0.280487060546875,
+      "rms": 0.04027664661407471
+    },
+    {
+      "character_id": "voice_duoduo_core_01",
+      "name": "多多核心组中心女声",
+      "style": "neutral",
+      "duration": 12.0,
+      "peak": 0.20914888381958008,
+      "rms": 0.016637368127703667
+    },
+    {
+      "character_id": "voice_elite_male_01",
+      "name": "霸总精英冷峻男声（都市短剧方向）",
+      "style": "neutral",
+      "duration": 4.320166666666666,
+      "peak": 0.430267333984375,
+      "rms": 0.05951322987675667
+    },
+    {
+      "character_id": "voice_nanzhu_core_01",
+      "name": "南烛核心组中心女声",
+      "style": "neutral",
+      "duration": 12.0,
+      "peak": 0.27786731719970703,
+      "rms": 0.024570785462856293
+    },
+    {
+      "character_id": "voice_podcast_female_01",
+      "name": "知性优雅生活女声（播客方向）",
+      "style": "neutral",
+      "duration": 7.8,
+      "peak": 0.4658203125,
+      "rms": 0.07410681992769241
+    },
+    {
+      "character_id": "voice_queen_female_01",
+      "name": "成熟御姐女王音（都市短剧方向）",
+      "style": "neutral",
+      "duration": 4.480166666666666,
+      "peak": 0.70098876953125,
+      "rms": 0.07428605854511261
+    },
+    {
+      "character_id": "voice_reasoning_male_01",
+      "name": "从容哲思说理男声（知识表达方向）",
+      "style": "neutral",
+      "duration": 7.8,
+      "peak": 0.42047119140625,
+      "rms": 0.04246041178703308
+    },
+    {
+      "character_id": "voice_suspense_male_01",
+      "name": "悬疑紧凑解说男声（短视频方向）",
+      "style": "neutral",
+      "duration": 7.0,
+      "peak": 0.2720947265625,
+      "rms": 0.04774608835577965
+    },
+    {
+      "character_id": "voice_warm_story_male_01",
+      "name": "温润故事叙事男声（治愈电台方向）",
+      "style": "neutral",
+      "duration": 4.480166666666666,
+      "peak": 0.287261962890625,
+      "rms": 0.06687159836292267
+    },
+    {
+      "character_id": "voice_yanshen_yujie_01",
+      "name": "宴深组中心御姐女声",
+      "style": "neutral",
+      "duration": 12.0,
+      "peak": 0.6627178192138672,
+      "rms": 0.041927654296159744
     }
   ]
 }

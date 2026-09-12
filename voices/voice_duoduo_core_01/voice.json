@@ -1,0 +1,77 @@
+{
+  "id": "voice_duoduo_core_01",
+  "name": "多多核心组中心女声",
+  "language": "zh",
+  "description": "来自 bilibili-voice-final-candidates-20260908.zip 的 D 多多核心同一说话人组推荐参考；本地 ASR 候选 transcript，待人工核对；授权状态待确认。",
+  "default_style": "neutral",
+  "styles": {
+    "neutral": {
+      "reference": "neutral/reference.wav",
+      "transcript": "neutral/transcript.txt",
+      "original": "neutral/original.wav",
+      "quality_warnings": [],
+      "reference_sha256": "8e8ce91af4abb825a42b57639edf84ca6215ccc0b886599a805ce1044a71dd91",
+      "original_sha256": "fc0a7a3251813ef6a2469fc031ac2216b0e0f974939ef2b37d7aa9d2f70689de",
+      "reference_stats": {
+        "path": "neutral/reference.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "frames": 576000,
+        "duration": 12.0,
+        "peak": 0.20914888381958008,
+        "rms": 0.016637368127703667,
+        "clipping": false,
+        "has_nan": false,
+        "has_inf": false,
+        "subtype": "PCM_24",
+        "dc_offset": 6.1936939346196596e-06,
+        "silence_ratio": 0.14831597222222223,
+        "max_sample_jump": 0.11505687236785889,
+        "edge_silence_seconds": {
+          "start": 0.0,
+          "end": 0.0
+        },
+        "longest_silence_seconds": 0.04441666666666667
+      },
+      "reference_qc": {
+        "status": "PASS",
+        "failures": [],
+        "warnings": [],
+        "version": "1",
+        "unmeasured": [
+          "noise",
+          "music",
+          "reverb",
+          "speaker_identity",
+          "emotion",
+          "repeated_audio"
+        ],
+        "note": "Acoustic thresholds are conservative engineering heuristics, not calibrated perceptual scores"
+      },
+      "transcript_text": "尽情的跑一场呢啊我的腿哎没事早就好了嘿你看就算跳这么高也不会痛的学长",
+      "transcript_verified": "local_asr_candidate_not_manually_verified",
+      "provenance": "user_supplied",
+      "commercial_use": null,
+      "created_at": "2026-09-08T12:01:35.063600+00:00"
+    }
+  },
+  "provenance": "user_supplied",
+  "source": "user_supplied",
+  "commercial_use": null,
+  "created_at": "2026-09-08T12:01:35.063611+00:00",
+  "tags": [],
+  "runtime_at_registration": {
+    "python_version": "3.11.15",
+    "machine": "arm64",
+    "os": "macOS-26.3.1-arm64-arm-64bit",
+    "mlx_version": "0.32.2",
+    "mlx_audio_version": "0.5.1"
+  },
+  "model_lock_at_registration": {
+    "repo": "mlx-community/VoxCPM2-bf16",
+    "revision": "a7fb80d9056983135a54ca3f71fcc5a637ccddf5",
+    "format": "bf16",
+    "provenance": "Existing local Hugging Face download metadata; retain current tested installation",
+    "mlx_audio_version": "0.5.1"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "id": "voice_bimushuangyu_gaoshi_01",
+  "name": "比目双鱼组中心男声",
+  "language": "zh",
+  "description": "来自 bilibili-voice-final-candidates-20260908.zip 的 A 比目双鱼同一说话人组推荐参考；本地 ASR 候选 transcript，待人工核对；授权状态待确认。",
+  "default_style": "neutral",
+  "styles": {
+    "neutral": {
+      "reference": "neutral/reference.wav",
+      "transcript": "neutral/transcript.txt",
+      "original": "neutral/original.wav",
+      "quality_warnings": [],
+      "reference_sha256": "8d3a55e25f78c0e0188ed9dde45f0c379d2cbde6eba51cb7032670bf44519658",
+      "original_sha256": "9a2c33413c22fd5a01685ed7e0a9ae92acad6268cd0adb4c40bb4bcc81d3d23e",
+      "reference_stats": {
+        "path": "neutral/reference.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "frames": 576000,
+        "duration": 12.0,
+        "peak": 0.4855741262435913,
+        "rms": 0.04193957522511482,
+        "clipping": false,
+        "has_nan": false,
+        "has_inf": false,
+        "subtype": "PCM_24",
+        "dc_offset": 0.00032168516190722585,
+        "silence_ratio": 0.10593402777777777,
+        "max_sample_jump": 0.2491821050643921,
+        "edge_silence_seconds": {
+          "start": 0.0,
+          "end": 0.0
+        },
+        "longest_silence_seconds": 0.0034583333333333332
+      },
+      "reference_qc": {
+        "status": "PASS",
+        "failures": [],
+        "warnings": [],
+        "version": "1",
+        "unmeasured": [
+          "noise",
+          "music",
+          "reverb",
+          "speaker_identity",
+          "emotion",
+          "repeated_audio"
+        ],
+        "note": "Acoustic thresholds are conservative engineering heuristics, not calibrated perceptual scores"
+      },
+      "transcript_text": "为天上我我是世间人我在世间徘徊",
+      "transcript_verified": "local_asr_candidate_not_manually_verified",
+      "provenance": "user_supplied",
+      "commercial_use": null,
+      "created_at": "2026-09-08T12:01:32.607138+00:00"
+    }
+  },
+  "provenance": "user_supplied",
+  "source": "user_supplied",
+  "commercial_use": null,
+  "created_at": "2026-09-08T12:01:32.607152+00:00",
+  "tags": [],
+  "runtime_at_registration": {
+    "python_version": "3.11.15",
+    "machine": "arm64",
+    "os": "macOS-26.3.1-arm64-arm-64bit",
+    "mlx_version": "0.32.2",
+    "mlx_audio_version": "0.5.1"
+  },
+  "model_lock_at_registration": {
+    "repo": "mlx-community/VoxCPM2-bf16",
+    "revision": "a7fb80d9056983135a54ca3f71fcc5a637ccddf5",
+    "format": "bf16",
+    "provenance": "Existing local Hugging Face download metadata; retain current tested installation",
+    "mlx_audio_version": "0.5.1"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "project": "zip_voice_clone_smoke_20260908",
+  "seed": 20260908,
+  "inference_timesteps": 30,
+  "cfg_value": 2.0,
+  "warmup_patches": 0,
+  "max_tokens": 2000,
+  "candidates": 3,
+  "profile": "production",
+  "normalization_profile": "dialogue",
+  "lines": [
+    {"id":"ZIP01_bimushuangyu","character_id":"voice_bimushuangyu_gaoshi_01","style":"neutral","text":"这是推荐声音的本地克隆试听句，重点检查音色稳定、吐字清楚和停连自然。"},
+    {"id":"ZIP02_yanshen","character_id":"voice_yanshen_yujie_01","style":"neutral","text":"这是推荐声音的本地克隆试听句，重点检查音色稳定、吐字清楚和停连自然。"},
+    {"id":"ZIP03_nanzhu","character_id":"voice_nanzhu_core_01","style":"neutral","text":"这是推荐声音的本地克隆试听句，重点检查音色稳定、吐字清楚和停连自然。"},
+    {"id":"ZIP04_duoduo","character_id":"voice_duoduo_core_01","style":"neutral","text":"这是推荐声音的本地克隆试听句，重点检查音色稳定、吐字清楚和停连自然。"}
+  ]
+}

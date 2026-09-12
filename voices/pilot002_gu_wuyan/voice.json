@@ -1,0 +1,77 @@
+{
+  "id": "pilot002_gu_wuyan",
+  "name": "顾无言",
+  "language": "zh",
+  "description": "42岁中国男性盲眼说书人，中低音，沉静有阅历，略带自然沙感。",
+  "default_style": "neutral",
+  "styles": {
+    "neutral": {
+      "reference": "neutral/reference.wav",
+      "transcript": "neutral/transcript.txt",
+      "original": "neutral/original.wav",
+      "quality_warnings": [],
+      "reference_sha256": "1f581a70dface24be51ab260e44c70792876d9ee3d1c7a907fb1a1aedd058018",
+      "original_sha256": "1f581a70dface24be51ab260e44c70792876d9ee3d1c7a907fb1a1aedd058018",
+      "reference_stats": {
+        "path": "neutral/reference.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "frames": 499208,
+        "duration": 10.400166666666667,
+        "peak": 0.9210652112960815,
+        "rms": 0.12428545206785202,
+        "clipping": false,
+        "has_nan": false,
+        "has_inf": false,
+        "subtype": "PCM_24",
+        "dc_offset": -0.00013169871817808598,
+        "silence_ratio": 0.1289823079758337,
+        "max_sample_jump": 0.38585126399993896,
+        "edge_silence_seconds": {
+          "start": 0.0,
+          "end": 0.07847916666666667
+        },
+        "longest_silence_seconds": 0.08004166666666666
+      },
+      "reference_qc": {
+        "status": "PASS",
+        "failures": [],
+        "warnings": [],
+        "version": "1",
+        "unmeasured": [
+          "noise",
+          "music",
+          "reverb",
+          "speaker_identity",
+          "emotion",
+          "repeated_audio"
+        ],
+        "note": "Acoustic thresholds are conservative engineering heuristics, not calibrated perceptual scores"
+      },
+      "transcript_text": "第三式慢了半寸。你师父死时，也慢了半寸。现在杀我，还是学最后一式？",
+      "transcript_verified": "user_supplied_not_asr_verified",
+      "provenance": "voice_design",
+      "commercial_use": null,
+      "created_at": "2026-09-08T08:31:29.570805+00:00"
+    }
+  },
+  "provenance": "voice_design",
+  "source": "generated",
+  "commercial_use": null,
+  "created_at": "2026-09-08T08:31:29.570815+00:00",
+  "tags": [],
+  "runtime_at_registration": {
+    "python_version": "3.11.15",
+    "machine": "arm64",
+    "os": "macOS-26.3.1-arm64-arm-64bit",
+    "mlx_version": "0.32.2",
+    "mlx_audio_version": "0.5.1"
+  },
+  "model_lock_at_registration": {
+    "repo": "mlx-community/VoxCPM2-bf16",
+    "revision": "a7fb80d9056983135a54ca3f71fcc5a637ccddf5",
+    "format": "bf16",
+    "provenance": "Existing local Hugging Face download metadata; retain current tested installation",
+    "mlx_audio_version": "0.5.1"
+  }
+}

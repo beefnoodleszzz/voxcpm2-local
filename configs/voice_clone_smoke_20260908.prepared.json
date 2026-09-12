@@ -1,0 +1,315 @@
+{
+  "seed": 20260908,
+  "inference_timesteps": 30,
+  "cfg_value": 2.0,
+  "warmup_patches": 0,
+  "max_tokens": 2000,
+  "candidates": 3,
+  "profile": "production",
+  "normalization_profile": "dialogue",
+  "project_lexicon": {},
+  "episode_lexicon": {},
+  "project": "voice_clone_smoke_20260908",
+  "lines": [
+    {
+      "id": "VC01_doc_narrator",
+      "character_id": "voice_doc_narrator_01",
+      "style": "neutral",
+      "text": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+      "mode": "controllable",
+      "instruct": "自然生活化对白，语气克制，停连随语义变化，不要播音腔，不要机械匀速",
+      "seed": null,
+      "preparation": {
+        "text_original": "这是本地声音克隆的中性测试句，重点检查音色稳定、吐字清楚和停连自然。",
+        "text_normalized": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+        "text_spoken": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+        "text_expected": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+        "normalization": {
+          "original": "这是本地声音克隆的中性测试句，重点检查音色稳定、吐字清楚和停连自然。",
+          "normalized": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+          "profile": "dialogue",
+          "version": "1",
+          "warnings": [],
+          "changed": true
+        },
+        "pronunciation": {
+          "text": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+          "expected": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+          "applied": [],
+          "warnings": [],
+          "sha256": "4676e781439abce0306eb556804fd2e305a6a574ed2871b098f05044ac35be7d"
+        }
+      }
+    },
+    {
+      "id": "VC02_reasoning_male",
+      "character_id": "voice_reasoning_male_01",
+      "style": "neutral",
+      "text": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+      "mode": "controllable",
+      "instruct": "自然生活化对白，语气克制，停连随语义变化，不要播音腔，不要机械匀速",
+      "seed": null,
+      "preparation": {
+        "text_original": "这是本地声音克隆的中性测试句，重点检查音色稳定、吐字清楚和停连自然。",
+        "text_normalized": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+        "text_spoken": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+        "text_expected": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+        "normalization": {
+          "original": "这是本地声音克隆的中性测试句，重点检查音色稳定、吐字清楚和停连自然。",
+          "normalized": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+          "profile": "dialogue",
+          "version": "1",
+          "warnings": [],
+          "changed": true
+        },
+        "pronunciation": {
+          "text": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+          "expected": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+          "applied": [],
+          "warnings": [],
+          "sha256": "4676e781439abce0306eb556804fd2e305a6a574ed2871b098f05044ac35be7d"
+        }
+      }
+    },
+    {
+      "id": "VC03_podcast_female",
+      "character_id": "voice_podcast_female_01",
+      "style": "neutral",
+      "text": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+      "mode": "controllable",
+      "instruct": "自然生活化对白，语气克制，停连随语义变化，不要播音腔，不要机械匀速",
+      "seed": null,
+      "preparation": {
+        "text_original": "这是本地声音克隆的中性测试句，重点检查音色稳定、吐字清楚和停连自然。",
+        "text_normalized": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+        "text_spoken": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+        "text_expected": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+        "normalization": {
+          "original": "这是本地声音克隆的中性测试句，重点检查音色稳定、吐字清楚和停连自然。",
+          "normalized": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+          "profile": "dialogue",
+          "version": "1",
+          "warnings": [],
+          "changed": true
+        },
+        "pronunciation": {
+          "text": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+          "expected": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+          "applied": [],
+          "warnings": [],
+          "sha256": "4676e781439abce0306eb556804fd2e305a6a574ed2871b098f05044ac35be7d"
+        }
+      }
+    },
+    {
+      "id": "VC04_suspense_male",
+      "character_id": "voice_suspense_male_01",
+      "style": "neutral",
+      "text": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+      "mode": "controllable",
+      "instruct": "自然生活化对白，语气克制，停连随语义变化，不要播音腔，不要机械匀速",
+      "seed": null,
+      "preparation": {
+        "text_original": "这是本地声音克隆的中性测试句，重点检查音色稳定、吐字清楚和停连自然。",
+        "text_normalized": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+        "text_spoken": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+        "text_expected": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+        "normalization": {
+          "original": "这是本地声音克隆的中性测试句，重点检查音色稳定、吐字清楚和停连自然。",
+          "normalized": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+          "profile": "dialogue",
+          "version": "1",
+          "warnings": [],
+          "changed": true
+        },
+        "pronunciation": {
+          "text": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+          "expected": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+          "applied": [],
+          "warnings": [],
+          "sha256": "4676e781439abce0306eb556804fd2e305a6a574ed2871b098f05044ac35be7d"
+        }
+      }
+    },
+    {
+      "id": "VC05_elite_male",
+      "character_id": "voice_elite_male_01",
+      "style": "neutral",
+      "text": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+      "mode": "controllable",
+      "instruct": "自然生活化对白，语气克制，停连随语义变化，不要播音腔，不要机械匀速",
+      "seed": null,
+      "preparation": {
+        "text_original": "这是本地声音克隆的中性测试句，重点检查音色稳定、吐字清楚和停连自然。",
+        "text_normalized": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+        "text_spoken": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+        "text_expected": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+        "normalization": {
+          "original": "这是本地声音克隆的中性测试句，重点检查音色稳定、吐字清楚和停连自然。",
+          "normalized": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+          "profile": "dialogue",
+          "version": "1",
+          "warnings": [],
+          "changed": true
+        },
+        "pronunciation": {
+          "text": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+          "expected": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+          "applied": [],
+          "warnings": [],
+          "sha256": "4676e781439abce0306eb556804fd2e305a6a574ed2871b098f05044ac35be7d"
+        }
+      }
+    },
+    {
+      "id": "VC06_cool_lead_female",
+      "character_id": "voice_cool_lead_female_01",
+      "style": "neutral",
+      "text": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+      "mode": "controllable",
+      "instruct": "自然生活化对白，语气克制，停连随语义变化，不要播音腔，不要机械匀速",
+      "seed": null,
+      "preparation": {
+        "text_original": "这是本地声音克隆的中性测试句，重点检查音色稳定、吐字清楚和停连自然。",
+        "text_normalized": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+        "text_spoken": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+        "text_expected": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+        "normalization": {
+          "original": "这是本地声音克隆的中性测试句，重点检查音色稳定、吐字清楚和停连自然。",
+          "normalized": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+          "profile": "dialogue",
+          "version": "1",
+          "warnings": [],
+          "changed": true
+        },
+        "pronunciation": {
+          "text": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+          "expected": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+          "applied": [],
+          "warnings": [],
+          "sha256": "4676e781439abce0306eb556804fd2e305a6a574ed2871b098f05044ac35be7d"
+        }
+      }
+    },
+    {
+      "id": "VC07_queen_female",
+      "character_id": "voice_queen_female_01",
+      "style": "neutral",
+      "text": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+      "mode": "controllable",
+      "instruct": "自然生活化对白，语气克制，停连随语义变化，不要播音腔，不要机械匀速",
+      "seed": null,
+      "preparation": {
+        "text_original": "这是本地声音克隆的中性测试句，重点检查音色稳定、吐字清楚和停连自然。",
+        "text_normalized": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+        "text_spoken": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+        "text_expected": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+        "normalization": {
+          "original": "这是本地声音克隆的中性测试句，重点检查音色稳定、吐字清楚和停连自然。",
+          "normalized": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+          "profile": "dialogue",
+          "version": "1",
+          "warnings": [],
+          "changed": true
+        },
+        "pronunciation": {
+          "text": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+          "expected": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+          "applied": [],
+          "warnings": [],
+          "sha256": "4676e781439abce0306eb556804fd2e305a6a574ed2871b098f05044ac35be7d"
+        }
+      }
+    },
+    {
+      "id": "VC08_warm_story_male",
+      "character_id": "voice_warm_story_male_01",
+      "style": "neutral",
+      "text": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+      "mode": "controllable",
+      "instruct": "自然生活化对白，语气克制，停连随语义变化，不要播音腔，不要机械匀速",
+      "seed": null,
+      "preparation": {
+        "text_original": "这是本地声音克隆的中性测试句，重点检查音色稳定、吐字清楚和停连自然。",
+        "text_normalized": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+        "text_spoken": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+        "text_expected": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+        "normalization": {
+          "original": "这是本地声音克隆的中性测试句，重点检查音色稳定、吐字清楚和停连自然。",
+          "normalized": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+          "profile": "dialogue",
+          "version": "1",
+          "warnings": [],
+          "changed": true
+        },
+        "pronunciation": {
+          "text": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+          "expected": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+          "applied": [],
+          "warnings": [],
+          "sha256": "4676e781439abce0306eb556804fd2e305a6a574ed2871b098f05044ac35be7d"
+        }
+      }
+    },
+    {
+      "id": "VC09_cosyvoice_benchmark",
+      "character_id": "voice_benchmark_cosyvoice_male_01",
+      "style": "neutral",
+      "text": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+      "mode": "controllable",
+      "instruct": "自然生活化对白，语气克制，停连随语义变化，不要播音腔，不要机械匀速",
+      "seed": null,
+      "preparation": {
+        "text_original": "这是本地声音克隆的中性测试句，重点检查音色稳定、吐字清楚和停连自然。",
+        "text_normalized": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+        "text_spoken": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+        "text_expected": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+        "normalization": {
+          "original": "这是本地声音克隆的中性测试句，重点检查音色稳定、吐字清楚和停连自然。",
+          "normalized": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+          "profile": "dialogue",
+          "version": "1",
+          "warnings": [],
+          "changed": true
+        },
+        "pronunciation": {
+          "text": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+          "expected": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+          "applied": [],
+          "warnings": [],
+          "sha256": "4676e781439abce0306eb556804fd2e305a6a574ed2871b098f05044ac35be7d"
+        }
+      }
+    },
+    {
+      "id": "VC10_f5tts_benchmark",
+      "character_id": "voice_benchmark_f5tts_male_01",
+      "style": "neutral",
+      "text": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+      "mode": "controllable",
+      "instruct": "自然生活化对白，语气克制，停连随语义变化，不要播音腔，不要机械匀速",
+      "seed": null,
+      "preparation": {
+        "text_original": "这是本地声音克隆的中性测试句，重点检查音色稳定、吐字清楚和停连自然。",
+        "text_normalized": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+        "text_spoken": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+        "text_expected": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+        "normalization": {
+          "original": "这是本地声音克隆的中性测试句，重点检查音色稳定、吐字清楚和停连自然。",
+          "normalized": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+          "profile": "dialogue",
+          "version": "1",
+          "warnings": [],
+          "changed": true
+        },
+        "pronunciation": {
+          "text": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+          "expected": "这是本地声音克隆的中性测试句,重点检查音色稳定、吐字清楚和停连自然。",
+          "applied": [],
+          "warnings": [],
+          "sha256": "4676e781439abce0306eb556804fd2e305a6a574ed2871b098f05044ac35be7d"
+        }
+      }
+    }
+  ]
+}

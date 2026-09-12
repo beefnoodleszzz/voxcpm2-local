@@ -1,0 +1,79 @@
+{
+  "id": "voice_yanshen_yujie_01",
+  "name": "宴深组中心御姐女声",
+  "language": "zh",
+  "description": "来自 bilibili-voice-final-candidates-20260908.zip 的 B 宴深同一说话人组推荐参考；本地 ASR 候选 transcript，待人工核对；授权状态待确认。",
+  "default_style": "neutral",
+  "styles": {
+    "neutral": {
+      "reference": "neutral/reference.wav",
+      "transcript": "neutral/transcript.txt",
+      "original": "neutral/original.wav",
+      "quality_warnings": [],
+      "reference_sha256": "7fa408a4e78ea2fa28bef0df79d73f4db39ee019947cd7a5034ee826781000b0",
+      "original_sha256": "38fa0455376a208ddf0df2f9f860d58046aea51295fc0c51f54d184156291f9e",
+      "reference_stats": {
+        "path": "neutral/reference.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "frames": 576000,
+        "duration": 12.0,
+        "peak": 0.6627178192138672,
+        "rms": 0.041927654296159744,
+        "clipping": false,
+        "has_nan": false,
+        "has_inf": false,
+        "subtype": "PCM_24",
+        "dc_offset": -6.815794222347904e-06,
+        "silence_ratio": 0.10011458333333334,
+        "max_sample_jump": 0.5445156097412109,
+        "edge_silence_seconds": {
+          "start": 0.0,
+          "end": 0.0
+        },
+        "longest_silence_seconds": 0.0035416666666666665
+      },
+      "reference_qc": {
+        "status": "WARN",
+        "failures": [],
+        "warnings": [
+          "waveform_discontinuity"
+        ],
+        "version": "1",
+        "unmeasured": [
+          "noise",
+          "music",
+          "reverb",
+          "speaker_identity",
+          "emotion",
+          "repeated_audio"
+        ],
+        "note": "Acoustic thresholds are conservative engineering heuristics, not calibrated perceptual scores"
+      },
+      "transcript_text": "有许多话但是现在一直说不起来等想想再说吧我欢喜你",
+      "transcript_verified": "local_asr_candidate_not_manually_verified",
+      "provenance": "user_supplied",
+      "commercial_use": null,
+      "created_at": "2026-09-08T12:01:33.424316+00:00"
+    }
+  },
+  "provenance": "user_supplied",
+  "source": "user_supplied",
+  "commercial_use": null,
+  "created_at": "2026-09-08T12:01:33.424326+00:00",
+  "tags": [],
+  "runtime_at_registration": {
+    "python_version": "3.11.15",
+    "machine": "arm64",
+    "os": "macOS-26.3.1-arm64-arm-64bit",
+    "mlx_version": "0.32.2",
+    "mlx_audio_version": "0.5.1"
+  },
+  "model_lock_at_registration": {
+    "repo": "mlx-community/VoxCPM2-bf16",
+    "revision": "a7fb80d9056983135a54ca3f71fcc5a637ccddf5",
+    "format": "bf16",
+    "provenance": "Existing local Hugging Face download metadata; retain current tested installation",
+    "mlx_audio_version": "0.5.1"
+  }
+}

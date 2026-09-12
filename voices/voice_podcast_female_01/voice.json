@@ -1,0 +1,77 @@
+{
+  "id": "voice_podcast_female_01",
+  "name": "知性优雅生活女声（播客方向）",
+  "language": "zh",
+  "description": "本地用户素材；自然播客与生活对话方向；授权状态待确认。",
+  "default_style": "neutral",
+  "styles": {
+    "neutral": {
+      "reference": "neutral/reference.wav",
+      "transcript": "neutral/transcript.txt",
+      "original": "neutral/original.wav",
+      "quality_warnings": [],
+      "reference_sha256": "60b3832fb6341978ffc14be50e4621225a473911589ee67236e4fd3bcf419c34",
+      "original_sha256": "dce1ace25cbd2b87541bf40a03ef7e5367136869d7c1f490789e7b8a53b53366",
+      "reference_stats": {
+        "path": "neutral/reference.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "frames": 374400,
+        "duration": 7.8,
+        "peak": 0.4658203125,
+        "rms": 0.07410681992769241,
+        "clipping": false,
+        "has_nan": false,
+        "has_inf": false,
+        "subtype": "PCM_24",
+        "dc_offset": -7.915252353996038e-05,
+        "silence_ratio": 0.015729166666666666,
+        "max_sample_jump": 0.35888671875,
+        "edge_silence_seconds": {
+          "start": 0.0,
+          "end": 0.0
+        },
+        "longest_silence_seconds": 0.0007291666666666667
+      },
+      "reference_qc": {
+        "status": "PASS",
+        "failures": [],
+        "warnings": [],
+        "version": "1",
+        "unmeasured": [
+          "noise",
+          "music",
+          "reverb",
+          "speaker_identity",
+          "emotion",
+          "repeated_audio"
+        ],
+        "note": "Acoustic thresholds are conservative engineering heuristics, not calibrated perceptual scores"
+      },
+      "transcript_text": "嗨大家好欢迎收听声东击西我们一起用对话来理解这个世界的结构性变动我",
+      "transcript_verified": "user_supplied_not_asr_verified",
+      "provenance": "user_supplied",
+      "commercial_use": null,
+      "created_at": "2026-09-08T11:35:07.047180+00:00"
+    }
+  },
+  "provenance": "user_supplied",
+  "source": "user_supplied",
+  "commercial_use": null,
+  "created_at": "2026-09-08T11:35:07.047191+00:00",
+  "tags": [],
+  "runtime_at_registration": {
+    "python_version": "3.11.15",
+    "machine": "arm64",
+    "os": "macOS-26.3.1-arm64-arm-64bit",
+    "mlx_version": "0.32.2",
+    "mlx_audio_version": "0.5.1"
+  },
+  "model_lock_at_registration": {
+    "repo": "mlx-community/VoxCPM2-bf16",
+    "revision": "a7fb80d9056983135a54ca3f71fcc5a637ccddf5",
+    "format": "bf16",
+    "provenance": "Existing local Hugging Face download metadata; retain current tested installation",
+    "mlx_audio_version": "0.5.1"
+  }
+}

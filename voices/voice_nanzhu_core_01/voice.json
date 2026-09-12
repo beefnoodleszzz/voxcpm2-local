@@ -1,0 +1,77 @@
+{
+  "id": "voice_nanzhu_core_01",
+  "name": "南烛核心组中心女声",
+  "language": "zh",
+  "description": "来自 bilibili-voice-final-candidates-20260908.zip 的 C 南烛核心同一说话人组推荐参考；本地 ASR 候选 transcript，待人工核对；授权状态待确认。",
+  "default_style": "neutral",
+  "styles": {
+    "neutral": {
+      "reference": "neutral/reference.wav",
+      "transcript": "neutral/transcript.txt",
+      "original": "neutral/original.wav",
+      "quality_warnings": [],
+      "reference_sha256": "d91824c0c4b270d28bfb15819f305b625485548ee6474ce8f71cd33c93cb4b2e",
+      "original_sha256": "c384e382603986dbd8e2f21f754a294e32197091bd201a08c101038ca109f1df",
+      "reference_stats": {
+        "path": "neutral/reference.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "frames": 576000,
+        "duration": 12.0,
+        "peak": 0.27786731719970703,
+        "rms": 0.024570785462856293,
+        "clipping": false,
+        "has_nan": false,
+        "has_inf": false,
+        "subtype": "PCM_24",
+        "dc_offset": -0.00015122185868676752,
+        "silence_ratio": 0.10788715277777777,
+        "max_sample_jump": 0.10444998741149902,
+        "edge_silence_seconds": {
+          "start": 0.0,
+          "end": 0.0
+        },
+        "longest_silence_seconds": 0.004479166666666667
+      },
+      "reference_qc": {
+        "status": "PASS",
+        "failures": [],
+        "warnings": [],
+        "version": "1",
+        "unmeasured": [
+          "noise",
+          "music",
+          "reverb",
+          "speaker_identity",
+          "emotion",
+          "repeated_audio"
+        ],
+        "note": "Acoustic thresholds are conservative engineering heuristics, not calibrated perceptual scores"
+      },
+      "transcript_text": "是比较接近我本应的少玉和御姐的角色先来个比较温柔一点的轩开车了哦哦哦",
+      "transcript_verified": "local_asr_candidate_not_manually_verified",
+      "provenance": "user_supplied",
+      "commercial_use": null,
+      "created_at": "2026-09-08T12:01:34.244578+00:00"
+    }
+  },
+  "provenance": "user_supplied",
+  "source": "user_supplied",
+  "commercial_use": null,
+  "created_at": "2026-09-08T12:01:34.244593+00:00",
+  "tags": [],
+  "runtime_at_registration": {
+    "python_version": "3.11.15",
+    "machine": "arm64",
+    "os": "macOS-26.3.1-arm64-arm-64bit",
+    "mlx_version": "0.32.2",
+    "mlx_audio_version": "0.5.1"
+  },
+  "model_lock_at_registration": {
+    "repo": "mlx-community/VoxCPM2-bf16",
+    "revision": "a7fb80d9056983135a54ca3f71fcc5a637ccddf5",
+    "format": "bf16",
+    "provenance": "Existing local Hugging Face download metadata; retain current tested installation",
+    "mlx_audio_version": "0.5.1"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "id": "voice_warm_story_male_01",
+  "name": "温润故事叙事男声（治愈电台方向）",
+  "language": "zh",
+  "description": "本地用户素材；治愈系电台与故事叙事方向；授权状态待确认。",
+  "default_style": "neutral",
+  "styles": {
+    "neutral": {
+      "reference": "neutral/reference.wav",
+      "transcript": "neutral/transcript.txt",
+      "original": "neutral/original.wav",
+      "quality_warnings": [
+        "recommended duration is 5–15 seconds"
+      ],
+      "reference_sha256": "ed76f8e630f1385968e38906a4c219658f7d936564256aa086878cdbcd1b6fea",
+      "original_sha256": "27e00d785bdaee5b91774a0ec0d668094923cf21f4de4a7e4f0845e1a2e39b2b",
+      "reference_stats": {
+        "path": "neutral/reference.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "frames": 215048,
+        "duration": 4.480166666666666,
+        "peak": 0.287261962890625,
+        "rms": 0.06687159836292267,
+        "clipping": false,
+        "has_nan": false,
+        "has_inf": false,
+        "subtype": "PCM_24",
+        "dc_offset": 0.0006779340328648686,
+        "silence_ratio": 0.2476005356943566,
+        "max_sample_jump": 0.11187744140625,
+        "edge_silence_seconds": {
+          "start": 0.0026875,
+          "end": 0.041
+        },
+        "longest_silence_seconds": 0.28025
+      },
+      "reference_qc": {
+        "status": "WARN",
+        "failures": [],
+        "warnings": [
+          "reference_too_short"
+        ],
+        "version": "1",
+        "unmeasured": [
+          "noise",
+          "music",
+          "reverb",
+          "speaker_identity",
+          "emotion",
+          "repeated_audio"
+        ],
+        "note": "Acoustic thresholds are conservative engineering heuristics, not calibrated perceptual scores"
+      },
+      "transcript_text": "很多年以后他依然记得那个下着细雨的傍晚",
+      "transcript_verified": "user_supplied_not_asr_verified",
+      "provenance": "user_supplied",
+      "commercial_use": null,
+      "created_at": "2026-09-08T11:35:11.157052+00:00"
+    }
+  },
+  "provenance": "user_supplied",
+  "source": "user_supplied",
+  "commercial_use": null,
+  "created_at": "2026-09-08T11:35:11.157064+00:00",
+  "tags": [],
+  "runtime_at_registration": {
+    "python_version": "3.11.15",
+    "machine": "arm64",
+    "os": "macOS-26.3.1-arm64-arm-64bit",
+    "mlx_version": "0.32.2",
+    "mlx_audio_version": "0.5.1"
+  },
+  "model_lock_at_registration": {
+    "repo": "mlx-community/VoxCPM2-bf16",
+    "revision": "a7fb80d9056983135a54ca3f71fcc5a637ccddf5",
+    "format": "bf16",
+    "provenance": "Existing local Hugging Face download metadata; retain current tested installation",
+    "mlx_audio_version": "0.5.1"
+  }
+}

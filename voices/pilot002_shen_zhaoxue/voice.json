@@ -1,0 +1,77 @@
+{
+  "id": "pilot002_shen_zhaoxue",
+  "name": "沈照雪",
+  "language": "zh",
+  "description": "24岁中国女性武侠剑客，中音略偏低，清冽克制，利落而不甜腻。",
+  "default_style": "neutral",
+  "styles": {
+    "neutral": {
+      "reference": "neutral/reference.wav",
+      "transcript": "neutral/transcript.txt",
+      "original": "neutral/original.wav",
+      "quality_warnings": [],
+      "reference_sha256": "f7d16e69e08c74096d06faea44199cec8166cd3551833fcb000710a64752fd01",
+      "original_sha256": "f7d16e69e08c74096d06faea44199cec8166cd3551833fcb000710a64752fd01",
+      "reference_stats": {
+        "path": "neutral/reference.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "frames": 284168,
+        "duration": 5.920166666666667,
+        "peak": 0.6545114517211914,
+        "rms": 0.11032942682504654,
+        "clipping": false,
+        "has_nan": false,
+        "has_inf": false,
+        "subtype": "PCM_24",
+        "dc_offset": 0.005578761454671621,
+        "silence_ratio": 0.02630134286759945,
+        "max_sample_jump": 0.23350489139556885,
+        "edge_silence_seconds": {
+          "start": 0.0,
+          "end": 0.09804166666666667
+        },
+        "longest_silence_seconds": 0.100125
+      },
+      "reference_qc": {
+        "status": "PASS",
+        "failures": [],
+        "warnings": [],
+        "version": "1",
+        "unmeasured": [
+          "noise",
+          "music",
+          "reverb",
+          "speaker_identity",
+          "emotion",
+          "repeated_audio"
+        ],
+        "note": "Acoustic thresholds are conservative engineering heuristics, not calibrated perceptual scores"
+      },
+      "transcript_text": "顾无言，最后一式在哪？死人不会反驳你。谁射的箭？教我。",
+      "transcript_verified": "user_supplied_not_asr_verified",
+      "provenance": "voice_design",
+      "commercial_use": null,
+      "created_at": "2026-09-08T08:31:28.937819+00:00"
+    }
+  },
+  "provenance": "voice_design",
+  "source": "generated",
+  "commercial_use": null,
+  "created_at": "2026-09-08T08:31:28.937828+00:00",
+  "tags": [],
+  "runtime_at_registration": {
+    "python_version": "3.11.15",
+    "machine": "arm64",
+    "os": "macOS-26.3.1-arm64-arm-64bit",
+    "mlx_version": "0.32.2",
+    "mlx_audio_version": "0.5.1"
+  },
+  "model_lock_at_registration": {
+    "repo": "mlx-community/VoxCPM2-bf16",
+    "revision": "a7fb80d9056983135a54ca3f71fcc5a637ccddf5",
+    "format": "bf16",
+    "provenance": "Existing local Hugging Face download metadata; retain current tested installation",
+    "mlx_audio_version": "0.5.1"
+  }
+}

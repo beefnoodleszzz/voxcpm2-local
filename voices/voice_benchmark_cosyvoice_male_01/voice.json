@@ -1,0 +1,81 @@
+{
+  "id": "voice_benchmark_cosyvoice_male_01",
+  "name": "标准中文男声（CosyVoice基准方向）",
+  "language": "zh",
+  "description": "本地用户素材；CosyVoice基准测试方向；授权状态待确认。",
+  "default_style": "neutral",
+  "styles": {
+    "neutral": {
+      "reference": "neutral/reference.wav",
+      "transcript": "neutral/transcript.txt",
+      "original": "neutral/original.wav",
+      "quality_warnings": [
+        "recommended duration is 5–15 seconds"
+      ],
+      "reference_sha256": "0bc5af74f5f2e0b65e0567923aab298d537d8e697513348ac0a2c957ab132ca7",
+      "original_sha256": "e0fa54ba61ede6ddcbce634a60d4555a2e9ace61c92778a5131555b9496be4a9",
+      "reference_stats": {
+        "path": "neutral/reference.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "frames": 167040,
+        "duration": 3.48,
+        "peak": 0.473480224609375,
+        "rms": 0.05943220481276512,
+        "clipping": false,
+        "has_nan": false,
+        "has_inf": false,
+        "subtype": "PCM_24",
+        "dc_offset": 1.2406901078065857e-05,
+        "silence_ratio": 0.257716714559387,
+        "max_sample_jump": 0.0892333984375,
+        "edge_silence_seconds": {
+          "start": 0.29870833333333335,
+          "end": 0.28989583333333335
+        },
+        "longest_silence_seconds": 0.31604166666666667
+      },
+      "reference_qc": {
+        "status": "WARN",
+        "failures": [],
+        "warnings": [
+          "reference_too_short"
+        ],
+        "version": "1",
+        "unmeasured": [
+          "noise",
+          "music",
+          "reverb",
+          "speaker_identity",
+          "emotion",
+          "repeated_audio"
+        ],
+        "note": "Acoustic thresholds are conservative engineering heuristics, not calibrated perceptual scores"
+      },
+      "transcript_text": "希望你以后能够做的比我还好哟",
+      "transcript_verified": "user_supplied_not_asr_verified",
+      "provenance": "user_supplied",
+      "commercial_use": null,
+      "created_at": "2026-09-08T11:35:11.977398+00:00"
+    }
+  },
+  "provenance": "user_supplied",
+  "source": "user_supplied",
+  "commercial_use": null,
+  "created_at": "2026-09-08T11:35:11.977411+00:00",
+  "tags": [],
+  "runtime_at_registration": {
+    "python_version": "3.11.15",
+    "machine": "arm64",
+    "os": "macOS-26.3.1-arm64-arm-64bit",
+    "mlx_version": "0.32.2",
+    "mlx_audio_version": "0.5.1"
+  },
+  "model_lock_at_registration": {
+    "repo": "mlx-community/VoxCPM2-bf16",
+    "revision": "a7fb80d9056983135a54ca3f71fcc5a637ccddf5",
+    "format": "bf16",
+    "provenance": "Existing local Hugging Face download metadata; retain current tested installation",
+    "mlx_audio_version": "0.5.1"
+  }
+}

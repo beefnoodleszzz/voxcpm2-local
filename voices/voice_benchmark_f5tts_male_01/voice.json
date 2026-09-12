@@ -1,0 +1,77 @@
+{
+  "id": "voice_benchmark_f5tts_male_01",
+  "name": "戏剧中文男声（F5-TTS基准方向）",
+  "language": "zh",
+  "description": "本地用户素材；戏剧中文基准测试方向；授权状态待确认。",
+  "default_style": "neutral",
+  "styles": {
+    "neutral": {
+      "reference": "neutral/reference.wav",
+      "transcript": "neutral/transcript.txt",
+      "original": "neutral/original.wav",
+      "quality_warnings": [],
+      "reference_sha256": "84eed48eb15a793b0c64bc050ade2677d6f92df05b386deee7e0b3fd3675a952",
+      "original_sha256": "679429fa711af175df741ae2f613b50deda0e90e281863cc6e9177c6f1d44a3e",
+      "reference_stats": {
+        "path": "neutral/reference.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "frames": 324480,
+        "duration": 6.76,
+        "peak": 0.49761962890625,
+        "rms": 0.06373244524002075,
+        "clipping": false,
+        "has_nan": false,
+        "has_inf": false,
+        "subtype": "PCM_24",
+        "dc_offset": 5.398511575549492e-07,
+        "silence_ratio": 0.2285780325443787,
+        "max_sample_jump": 0.087677001953125,
+        "edge_silence_seconds": {
+          "start": 0.022645833333333334,
+          "end": 0.019666666666666666
+        },
+        "longest_silence_seconds": 0.31314583333333335
+      },
+      "reference_qc": {
+        "status": "PASS",
+        "failures": [],
+        "warnings": [],
+        "version": "1",
+        "unmeasured": [
+          "noise",
+          "music",
+          "reverb",
+          "speaker_identity",
+          "emotion",
+          "repeated_audio"
+        ],
+        "note": "Acoustic thresholds are conservative engineering heuristics, not calibrated perceptual scores"
+      },
+      "transcript_text": "对这就是我万人景仰的太乙真人",
+      "transcript_verified": "user_supplied_not_asr_verified",
+      "provenance": "user_supplied",
+      "commercial_use": null,
+      "created_at": "2026-09-08T11:35:12.790962+00:00"
+    }
+  },
+  "provenance": "user_supplied",
+  "source": "user_supplied",
+  "commercial_use": null,
+  "created_at": "2026-09-08T11:35:12.790974+00:00",
+  "tags": [],
+  "runtime_at_registration": {
+    "python_version": "3.11.15",
+    "machine": "arm64",
+    "os": "macOS-26.3.1-arm64-arm-64bit",
+    "mlx_version": "0.32.2",
+    "mlx_audio_version": "0.5.1"
+  },
+  "model_lock_at_registration": {
+    "repo": "mlx-community/VoxCPM2-bf16",
+    "revision": "a7fb80d9056983135a54ca3f71fcc5a637ccddf5",
+    "format": "bf16",
+    "provenance": "Existing local Hugging Face download metadata; retain current tested installation",
+    "mlx_audio_version": "0.5.1"
+  }
+}
